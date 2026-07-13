@@ -1,0 +1,47 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+coverage/
+.parcel-cache/
+.vite/
+.turbo/
+
+# --- Env files (never commit secrets) ---
+.env
+.env.local
+.env.*.local
+
+# --- Logs ---
+*.log
+
+# --- Local data artifacts (indexes/exports) ---
+data/
+artifacts/
+*.faiss
+*.index
+*.pickle
+

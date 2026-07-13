@@ -1,0 +1,1977 @@
+﻿current_model_id ibm/granite-8b-code-instruct
+project_id_present True
+api_key_present True
+url https://au-syd.ml.cloud.ibm.com
+
+========== SDK CAPABILITIES ==========
+ibm_watsonx_ai version 1.5.14
+ModelInference generate <function ModelInference.generate at 0x000002D607F07F60>
+ModelInference generate_text <function ModelInference.generate_text at 0x000002D607F1C180>
+ModelInference chat <function ModelInference.chat at 0x000002D607F07CE0>
+ModelInference chat_stream <function ModelInference.chat_stream at 0x000002D607F07D80>
+
+========== AVAILABLE GRANITE MODELS ==========
+[
+  {
+    "model_id": "ibm/granite-3-1-8b-base",
+    "label": "granite-3-1-8b-base",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2025-04-16"
+      }
+    ],
+    "functions": [
+      {
+        "id": "base_foundation_model_deployable"
+      },
+      {
+        "id": "lora_fine_tune_trainable"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "question_answering"
+      },
+      {
+        "id": "summarization"
+      },
+      {
+        "id": "retrieval_augmented_generation"
+      },
+      {
+        "id": "classification"
+      },
+      {
+        "id": "generation"
+      },
+      {
+        "id": "code"
+      },
+      {
+        "id": "extraction"
+      },
+      {
+        "id": "translation"
+      },
+      {
+        "id": "function_calling"
+      },
+      {
+        "id": "code-generation"
+      },
+      {
+        "id": "code-explanation"
+      },
+      {
+        "id": "code-fixing"
+      }
+    ],
+    "task_ids": [
+      "question_answering",
+      "summarization",
+      "retrieval_augmented_generation",
+      "classification",
+      "generation",
+      "code",
+      "extraction",
+      "translation",
+      "function_calling",
+      "code-generation",
+      "code-explanation",
+      "code-fixing"
+    ],
+    "type": null,
+    "support": null,
+    "short_description": "Granite 3.1 8b base is a pre-trained autoregressive foundation model with a context length of 128k intended for tuning.",
+    "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community."
+  },
+  {
+    "model_id": "ibm/granite-8b-code-instruct",
+    "label": "granite-8b-code-instruct",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2024-05-09"
+      },
+      {
+        "id": "deprecated",
+        "start_date": "2026-05-05"
+      },
+      {
+        "id": "withdrawn",
+        "start_date": "2026-08-08"
+      }
+    ],
+    "functions": [
+      {
+        "id": "text_chat"
+      },
+      {
+        "id": "text_generation"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "question_answering"
+      },
+      {
+        "id": "summarization"
+      },
+      {
+        "id": "classification"
+      },
+      {
+        "id": "generation"
+      },
+      {
+        "id": "code"
+      },
+      {
+        "id": "extraction"
+      },
+      {
+        "id": "code-generation",
+        "benchmarks": [
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.433
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.585
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.524
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.579
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.372
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.402
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.573
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.549
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.585
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.348
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_codeexecution"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.236
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_codegeneration"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.127
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_testoutputprediction"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.208
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to solve entry-level Python problems using a dataset with 974 crowd-sourced problems and solutions. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "MBPP"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.502
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Expands on the MBPP dataset with more Python programming problems and more comprehensive test cases. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "MBPP+"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.571
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "code-explanation",
+        "benchmarks": [
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.439
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.366
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.524
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.427
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.53
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.165
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.396
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.396
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.476
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.39
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.506
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.22
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "code-fixing",
+        "benchmarks": [
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.39
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.415
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.409
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.396
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.329
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.39
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.421
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.427
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.402
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.28
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_selfrepair"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.127
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          }
+        ]
+      }
+    ],
+    "task_ids": [
+      "question_answering",
+      "summarization",
+      "classification",
+      "generation",
+      "code",
+      "extraction",
+      "code-generation",
+      "code-explanation",
+      "code-fixing"
+    ],
+    "type": null,
+    "support": null,
+    "short_description": "The Granite model series is a family of IBM-trained, dense decoder-only models, which are particularly well-suited for generative tasks.",
+    "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community."
+  },
+  {
+    "model_id": "ibm/granite-guardian-3-8b",
+    "label": "granite-guardian-3-8b",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2024-10-21"
+      },
+      {
+        "id": "deprecated",
+        "start_date": "2026-05-05"
+      },
+      {
+        "id": "withdrawn",
+        "start_date": "2026-08-08"
+      }
+    ],
+    "functions": [
+      {
+        "id": "text_chat"
+      },
+      {
+        "id": "text_generation"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "question_answering"
+      },
+      {
+        "id": "summarization"
+      },
+      {
+        "id": "classification"
+      },
+      {
+        "id": "generation"
+      },
+      {
+        "id": "extraction"
+      }
+    ],
+    "task_ids": [
+      "question_answering",
+      "summarization",
+      "classification",
+      "generation",
+      "extraction"
+    ],
+    "type": null,
+    "support": null,
+    "short_description": "The Granite model series is a family of IBM-trained, dense decoder-only models, which are particularly well-suited for generative tasks.",
+    "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community."
+  },
+  {
+    "model_id": "ibm/granite-ttm-1024-96-r2",
+    "label": "granite-ttm-1024-96-r2",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2024-11-21"
+      }
+    ],
+    "functions": [
+      {
+        "id": "time_series_forecast"
+      }
+    ],
+    "tasks": null,
+    "task_ids": null,
+    "type": null,
+    "support": null,
+    "short_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research",
+    "long_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. Given the last 1024 time-points (i.e. context length), this model can forecast up to next 96 time-points (i.e. forecast length) in future. This model is targeted towards a forecasting setting of context length 1024 and forecast length 96 and recommended for hourly and minutely resolutions (Ex. 10 min, 15 min, 1 hour, etc)"
+  },
+  {
+    "model_id": "ibm/granite-ttm-1536-96-r2",
+    "label": "granite-ttm-1536-96-r2",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2024-11-21"
+      }
+    ],
+    "functions": [
+      {
+        "id": "time_series_forecast"
+      }
+    ],
+    "tasks": null,
+    "task_ids": null,
+    "type": null,
+    "support": null,
+    "short_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research",
+    "long_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. Given the last 1536 time-points (i.e. context length), this model can forecast up to next 96 time-points (i.e. forecast length) in future. This model is targeted towards a forecasting setting of context length 1536 and forecast length 96 and recommended for hourly and minutely resolutions (Ex. 10 min, 15 min, 1 hour, etc)"
+  },
+  {
+    "model_id": "ibm/granite-ttm-512-96-r2",
+    "label": "granite-ttm-512-96-r2",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2024-11-21"
+      }
+    ],
+    "functions": [
+      {
+        "id": "time_series_forecast"
+      }
+    ],
+    "tasks": null,
+    "task_ids": null,
+    "type": null,
+    "support": null,
+    "short_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research",
+    "long_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. Given the last 1024 time-points (i.e. context length), this model can forecast up to next 96 time-points (i.e. forecast length) in future. This model is targeted towards a forecasting setting of context length 1024 and forecast length 96 and recommended for hourly and minutely resolutions (Ex. 10 min, 15 min, 1 hour, etc)"
+  }
+]
+
+========== CURRENT MODEL INFO ==========
+[
+  {
+    "model_id": "ibm/granite-8b-code-instruct",
+    "label": "granite-8b-code-instruct",
+    "lifecycle": [
+      {
+        "id": "available",
+        "start_date": "2024-05-09"
+      },
+      {
+        "id": "deprecated",
+        "start_date": "2026-05-05"
+      },
+      {
+        "id": "withdrawn",
+        "start_date": "2026-08-08"
+      }
+    ],
+    "functions": [
+      {
+        "id": "text_chat"
+      },
+      {
+        "id": "text_generation"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "question_answering"
+      },
+      {
+        "id": "summarization"
+      },
+      {
+        "id": "classification"
+      },
+      {
+        "id": "generation"
+      },
+      {
+        "id": "code"
+      },
+      {
+        "id": "extraction"
+      },
+      {
+        "id": "code-generation",
+        "benchmarks": [
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.433
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.585
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.524
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.579
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.372
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.402
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.573
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.549
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.585
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to generate code in Python, C++, Go, Java, JavaScript, and Rust by using 164 code problems from the 'HumanEval' dataset that were translated from Python by humans. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalSynthesize"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.348
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_codeexecution"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.236
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_codegeneration"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.127
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_testoutputprediction"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.208
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to solve entry-level Python problems using a dataset with 974 crowd-sourced problems and solutions. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "MBPP"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.502
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Expands on the MBPP dataset with more Python programming problems and more comprehensive test cases. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "MBPP+"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.571
+              }
+            ],
+            "tags": [
+              "Code generation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "code-explanation",
+        "benchmarks": [
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.439
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.366
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.524
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.427
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.53
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.165
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.396
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.396
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.476
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.39
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.506
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to explain C++, Go, Java, JavaScript, Python and Rust code by using the 'HumanEval' dataset to first ask the model to explain the solution to a programming problem and then solve the problem given only the previously generated explanation. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalExplain"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.22
+              }
+            ],
+            "tags": [
+              "Code explanation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "code-fixing",
+        "benchmarks": [
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.39
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.415
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.409
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.396
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "academic",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.329
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "C++",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.39
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Go",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.421
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Java",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.482
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "JavaScript",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.427
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Python",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.402
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "Evaluates a model's ability to fix coding errors in the C++, Go, Java, JavaScript, Python and Rust using 'HumanEval' dataset with introduced errors and unit tests to help identify problems. Metric represents the pass@1 score.",
+            "language": "Rust",
+            "dataset": {
+              "name": "HumanEvalFix"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.28
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          },
+          {
+            "type": "watsonx.ai",
+            "name": "Code",
+            "description": "",
+            "language": "Python",
+            "dataset": {
+              "name": "livecodebench_selfrepair"
+            },
+            "metrics": [
+              {
+                "name": "pass@1",
+                "value": 0.127
+              }
+            ],
+            "tags": [
+              "Code fixing"
+            ]
+          }
+        ]
+      }
+    ],
+    "task_ids": [
+      "question_answering",
+      "summarization",
+      "classification",
+      "generation",
+      "code",
+      "extraction",
+      "code-generation",
+      "code-explanation",
+      "code-fixing"
+    ],
+    "type": null,
+    "support": null,
+    "short_description": "The Granite model series is a family of IBM-trained, dense decoder-only models, which are particularly well-suited for generative tasks.",
+    "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community."
+  }
+]
+
+========== PROBE 1 - generate ==========
+{
+  "method": "generate",
+  "response": {
+    "type": "dict",
+    "shape": {
+      "model_id": "str",
+      "model_version": "str",
+      "created_at": "str",
+      "results": [
+        {
+          "generated_text": "str",
+          "generated_token_count": "int",
+          "input_token_count": "int",
+          "stop_reason": "str"
+        }
+      ],
+      "system": {
+        "warnings": [
+          {
+            "message": "<MAX_DEPTH>",
+            "id": "<MAX_DEPTH>",
+            "more_info": "<MAX_DEPTH>"
+          },
+          {
+            "message": "<MAX_DEPTH>",
+            "id": "<MAX_DEPTH>",
+            "additional_properties": "<MAX_DEPTH>"
+          },
+          {
+            "message": "<MAX_DEPTH>",
+            "id": "<MAX_DEPTH>"
+          }
+        ]
+      }
+    },
+    "repr": "{'model_id': 'ibm/granite-8b-code-instruct', 'model_version': '1.1.1', 'created_at': '2026-07-11T13:14:52.753Z', 'results': [{'generated_text': '', 'generated_token_count': 1, 'input_token_count': 66, 'stop_reason': 'eos_token'}], 'system': {'warnings': [{'message': \"Model 'ibm/granite-8b-code-instruct' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'parameters.max_new_tokens' for this model was set to value 20\", 'id': 'unspecified_max_new_tokens', 'additional_properties': {'limit': 0, 'new_value': 20, 'parameter': 'parameters.max_new_tokens', 'value': 0}}, {'message': \"The API '/ml/v1/text/generation' is deprecated and will be removed soon. Instead use '/ml/v1/text/chat'.\", 'id': 'api_deprecation'}]}}"
+  },
+  "generated_text": "",
+  "text": null,
+  "stop_reason": "eos_token",
+  "generated_text_len": 0
+}
+
+========== PROBE 2 - generate_text ==========
+{
+  "method": "generate_text",
+  "response": {
+    "type": "str",
+    "shape": "str",
+    "repr": "''"
+  },
+  "generated_text": "",
+  "generated_text_len": 0
+}
+
+========== PROBE 3 - chat ==========
+{
+  "method": "chat",
+  "response": {
+    "type": "dict",
+    "shape": {
+      "id": "str",
+      "object": "str",
+      "model_id": "str",
+      "model": "str",
+      "choices": [
+        {
+          "index": "int",
+          "message": {
+            "role": "<MAX_DEPTH>",
+            "content": "<MAX_DEPTH>"
+          },
+          "finish_reason": "str"
+        }
+      ],
+      "created": "int",
+      "model_version": "str",
+      "created_at": "str",
+      "usage": {
+        "completion_tokens": "int",
+        "prompt_tokens": "int",
+        "total_tokens": "int"
+      },
+      "system": {
+        "warnings": [
+          {
+            "message": "<MAX_DEPTH>",
+            "id": "<MAX_DEPTH>",
+            "more_info": "<MAX_DEPTH>"
+          },
+          {
+            "message": "<MAX_DEPTH>",
+            "id": "<MAX_DEPTH>",
+            "additional_properties": "<MAX_DEPTH>"
+          }
+        ]
+      }
+    },
+    "repr": "{'id': 'chatcmpl-0c45475eb377f09e57eb1a8649d3d122', 'object': 'chat.completion', 'model_id': 'ibm/granite-8b-code-instruct', 'model': 'ibm/granite-8b-code-instruct', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'To be eligible for the Startup India Seed Fund Scheme, a company must:\\n\\n- Be a registered startup in India\\n- Have a minimum of an 80% shareholding of the company by the applicant\\n- Have a minimum of an 80% shareholding of the company by the promoter\\n- Have a minimum of an 80% shareholding of the company by the key management personnel\\n- Have a minimum of an 80% shareholding of the company by the key employees\\n- Have a minimum of an 80% shareholding of the company by the key advisors\\n- Have a minimum of an 80% shareholding of the company by the key strategic partners\\n- Have a minimum of an 80% shareholding of the company by the key customers\\n- Have a minimum of an 80% shareholding of the company by the key suppliers\\n- Have a minimum of an 80% shareholding of the company by the key distributors\\n- Have a minimum of an 80% shareholding of the company by the key financial institutions\\n- Have a minimum of an 80% shareholding of the company by the key government agencies\\n- Have a minimum of an 80% shareholding of the company by the key industry associations\\n- Have a minimum of an 80% shareholding of the company by the key academic institutions\\n- Have a minimum of an 80% shareholding of the company by the key research institutions\\n- Have a minimum of an 80% shareholding of the company by the key technology providers\\n- Have a minimum of an 80% shareholding of the company by the key consulting providers\\n- Have a minimum of an 80% shareholding of the company by the key legal providers\\n- Have a minimum of an 80% shareholding of the company by the key marketing providers\\n- Have a minimum of an 80% shareholding of the company by the key infrastructure providers\\n- Have a minimum of an 80% shareholding of the company by the key "
+  }
+}

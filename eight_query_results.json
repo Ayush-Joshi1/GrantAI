@@ -1,0 +1,724 @@
+[
+  {
+    "query": "I have an AI startup in Pune. What grants may be relevant?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.2672741999995196,
+    "retrieval_results": [
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1688:-1778609864526328473:2",
+        "score": 0.7103773355484009,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 9,
+        "content_preview": "NIDHI-EIR, E-YUVA, SITARE, Atal\nTinkering Labs\nYou are either a registered or\nincorporated startup. Continue below.\nIdea / PoC Stage: Grants to start Prototype and beyond: Ready to build\nBIG, PRAYAS 2.0, RKVY, SPARSH,\nGREAT\nSISFS, NIDHI-SSP, TIDE 2.0, iDEX,\nIN-SPACe Seed Fund, DCIS\nGrant (funding with no repayment) Equity Investment (you give a stake)\nSISFS, BIG, iDEX, ADITI, PRAYAS 2.0,\nDCIS, IN-SPACe Seed Fund, RKVY,\nSPARSH, GREAT, NQM\nFFS, Startup India FoF 2.0, AcE,\nAgriSURE, BIRAC SEED, LEAP Fund,\nSAMRIDH, Antariksh VCF, NIDHI-SSP\nCGSS, CGTMSE, PMMY, Stand Up\nIndia\nLoan / Credit Guarantee\nSIPP, GeM Startup Runway\nIP Protection / Market Access\nDefence /\nAllied Space Biotech /\nAllied\nAgriculture\n/ Food\nSemicon /\nElectronics\nQuantum\nTechnology\niDEX,"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1874:-4782877033398429698:2",
+        "score": 0.7061543464660645,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 85,
+        "content_preview": "support, access to seed capital, industry partners, and capacity building,\namong others to encourage innovative startups.\n✅ WHO\nCAN APPLY?\n• Academic institutions such as higher educational institutes, R&D\ninstitutes, etc.\n• Non-academic institutions such as corporate sector enterprises,\nalternative investment funds registered with Securities and Exchange\nBoard of India (SEBI),\n• Business accelerators, groups of individuals, and individuals, etc. are\neligible to apply\n💰 WHAT DO\nYOU GET?\nSuccessful applicants would be provided grants-in-aid to set up the AIC for a\nperiod of 5 years to cover the capital and operational expenditures.\n• Up to ₹5 crore (in case no lab facilities are established) and Up to ₹10"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1994:9134339492539474690:2",
+        "score": 0.7029356956481934,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 31,
+        "content_preview": "angel investors or venture capitalists or seek loans from commercial banks\nor financial institutions\n✅ WHO\nCAN APPLY?\n• DPIIT recognised startups.\n• Incorporated not more than 2 years ago at the time of application.\n• Startup must have a business idea to develop a product or a service with\nmarket fit, viable commercialisation, and scope of scaling. Startup should\nbe using technology in its core product or service, or business model.\n• Startup should not have received more than ₹10 lakh of monetary support\nunder any other Central or State Government scheme\n💰 WHAT DO\nYOU GET?\n• Up to ₹20 lakh as grant for validation of Proof of Concept, or prototype\ndevelopment, or product trials.\n• Up to ₹50 lakh of investment for market entry, commercialisation, or"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:2251:8876656686227468614:3",
+        "score": 0.6943540573120117,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 58,
+        "content_preview": "machinery/equipment.\n💰 WHAT DO\nYOU GET?\n• Grant-in-aid of normally up to ₹50 lakh per approved proposal for up to 18\nmonths.\n• Funding is released milestone-wise, generally in 40:40:20 instalments.\n• Associated incubators receive an additional 10% of the sanctioned\nGovernment grant share for mentoring, due diligence and monitoring\nsupport.\n• Intellectual property generated remains with the innovator/startup or may\nbe jointly shared with the incubator as per their agreement.\n🚀 HOW TO\nAPPLY\n• Apply online through the GREAT portal when applications are invited by\nNTTM/Ministry of Textiles.\nhttps://nttm.texmin.gov.in/StartupRegistration/StartupUserRegistration\n🔗 KEY\nLINKS\n• GREAT Application Portal:"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1603:-3511464245156527731:2",
+        "score": 0.6933022737503052,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 56,
+        "content_preview": "• DPIIT recognised early-stage startups with innovative ideas and projects\nthat use space technology to address challenges in space sector\n• Startups should not have received more than ₹50 lakh of monetary\nsupport under any Central or State Government Scheme.\n💰 WHAT DO\nYOU GET?\n• Funding, mentorship, training and networking opportunities.\n• Grant of ₹1 crore provided to selected startups on milestone-basis.\n🚀 HOW TO\nAPPLY\n• Announcement of opportunities made from time to time on\nhttps://www.inspace.gov.in/inspace?id=announcement_for_opportunities\n🔗 KEY\nLINKS\n• Website:\nhttps://www.inspace.gov.in/inspace?id=announcement_for_opportunities\n• Guidelines:\nhttps://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&c"
+      }
+    ],
+    "prompt_length": 5580,
+    "answer_text": "Based on the information provided, the following grants may be relevant for your AI startup in Pune:\n\n- GREAT (Grant for Early Technology Startups)\n- NIDHI-EIR (National Innovation and Digital Infrastructure for Rural Electrification)\n- E-YUVA (E-YUVA)\n- SITARE (SITARE)\n- Atal Tinkering Labs\n- DCIS (Defence Common Infrastructure Support)\n- IN-SPACe Seed Fund\n- RKVY (Rashtriya Krishi Vikas Yojana)\n- SPARSH (Skill Development and Entrepreneurship Programme for School Students)\n- GREAT (Global Education and Research Alliance for Talent)\n- SISFS (Skill Innovation and Startups Fund)\n- BIG (Business Incubation and Growth)\n- iDEX (Innovation and Incubation Development and Export)\n- ADITI (Atal Disinvestment and Innovation Trust)\n- PRAYAS 2.0 (Prayas)\n- DCIS (Defence Common Infrastructure Support)\n- IN-SPACe Seed Fund\n- RKVY (Rashtriya Krishi Vikas Yojana)\n- SPARSH (Skill Development and Entrepreneurship Programme for School Students)\n- GREAT (Global Education and Research Alliance for Talent)\n- FFS (Funded Funding Scheme)\n- Startup India FoF 2.0 (Startup India FoF)\n- AcE (Accelerator and Catalyst for Entrepreneurship)\n- AgriSURE (AgriSure)\n- BIRAC SEED (Birac Seed Fund)\n- LEAP Fund (Leap Fund)\n- SAMRIDH (Samridhi)\n- Antariksh VCF (Antariksh Venture Capital Fund)\n- CGSS (Civil Geotechnical Services)\n- CGTMSE (Civil Geotechnical Maintenance and Engineering Services)\n- PMMY (Pune Municipal Corporation)\n- Stand Up India (Stand Up India)\n\nPlease note that the specific grants available may vary based on your startup's needs and eligibility criteria. It is recommended to review the eligibility requirements and application processes for each grant to determine which may be the most suitable for your AI startup in Pune.",
+    "answer_length": 1733,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 9
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 85
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 31
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 58
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 56
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 5.282780000001367,
+    "total_latency_seconds": 15.327155000002676
+  },
+  {
+    "query": "What grants are available for biotechnology startups?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.19287729999996372,
+    "retrieval_results": [
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1927:-6709534799801930036:2",
+        "score": 0.7607077360153198,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 74,
+        "content_preview": "development and their commercialisation.\n• It facilitates innovation by enabling collaboration between startups,\nindustry, public institutions, and the Government to promote research and\ninnovation in the Indian biotechnology sector.\n✅ WHO\nCAN APPLY?\n• Biotechnology startups with/without partnerships with public/private\nuniversities, public or private research institutions, or\nsocieties/foundation/NGO.\n💰 WHAT DO\nYOU GET?\n• For a project cost of up to ₹50 lakh, 100% BIRAC grant -in-aid is given to\nselect applicants and collaboration company (if any)\n• For a project cost over ₹50 lakh, BIRAC grant -in-aid would be ₹50 lakh\nalong with 70% of the project cost over and above ₹50 lakh. The remaining\ncost is to be borne by the applicant.\n🚀 HOW TO\nAPPLY"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:2037:-5057601876794204795:2",
+        "score": 0.7370470762252808,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 6,
+        "content_preview": "BIG Biotechnology Ignition Grant Scheme\nAcE Biotechnology Innovation Fund – Accelerating Entrepreneurs\nSEED BIRAC Incubator SEED Fund\nLEAP Launching Entrepreneurial Driven Affordable Products\nSPARSH\nSocial Innovation Programme for Products Affordable & Relevant to\nSocial Health\nAgriSURE Agri Fund for Startups & Rural Enterprises\nRKVY Innovation & Agri-Entrepreneurship Program\nSAMRIDH\nStartup Accelerators of MeitY for Product Innovation, Development &\nGrowth\nGENESIS Gen-Next Support for Innovative Startups\nSTPI NGIS\nSoftware Technology Parks of India - Next Generation Incubation\nScheme\nC2S Programme Chips to Startup\niDEX Innovations for Defence Excellence\nADITI Acing Development of Innovative Technologies with iDEX\nTDF Technology Development Fund"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1439:-8794845417290785015:2",
+        "score": 0.7335606217384338,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 44,
+        "content_preview": "disbursed to startups under this program through the incubators. The\nfunding support aims to enhance startups’ ability to raise investments from\nAngel/Venture capitalist or to seek loans from commercial banks /financial\ninstitutions.\n✅ WHO\nCAN APPLY?\n• Biotech/Med-Tech/Life Sciences startups.\n💰 WHAT DO\nYOU GET?\n• Seed funding as equity and equity linked instruments up to ₹30 lakh per\nstartup.\n🚀 HOW TO\nAPPLY\n• Refer to the BIRAC Incubator SEED Fund Scheme website for more\ninformation of the incubators associated with the program:\nhttps://www.birac.nic.in/seedFundNew.php\n🔗 KEY\nLINKS\n• Website: https://www.birac.nic.in/seedFundNew.php\n• Operational Guidelines:\nhttps://www.birac.nic.in/webcontent/1616486925_seed_fund_Guidelines.\npdf\n💡 BEST\nSUITED FOR\nSeed"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1257:-2509342908525462943:1",
+        "score": 0.7309534549713135,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 45,
+        "content_preview": "PLAYBOOK OF GOVERNMENT SCHEMES AND INITIATIVES FOR STARTUPS\n\nPage 46 of 107\nLEAP Fund – Launching Entrepreneurial Driven\nAffordable Products\nDepartment of Biotechnology (DBT) / BIRAC\n\n📌 WHAT IS\nTHIS?\nThe LEAP Fund supports entrepreneurs in creating affordable, innovative\nproducts so more people can access useful technologies while encouraging\nbusiness growth.\n🎯\nOBJECTIVES\n• LEAP Fund assists potential biotech startups in piloting & commercialising\ntheir products & technologies enabling them to raise venture capital\ninvestment.\n✅ WHO\nCAN APPLY?\n• Startups in Biotech/med-tech/life science sectors.\n💰 WHAT DO\nYOU GET?\n• Funding support of more than ₹30 lakh and up to ₹1 crore per startup.\nStartup eligible and suitable for up to the threshold of ₹30 lakh investment"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1688:-1778609864526328473:2",
+        "score": 0.7246732711791992,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 9,
+        "content_preview": "NIDHI-EIR, E-YUVA, SITARE, Atal\nTinkering Labs\nYou are either a registered or\nincorporated startup. Continue below.\nIdea / PoC Stage: Grants to start Prototype and beyond: Ready to build\nBIG, PRAYAS 2.0, RKVY, SPARSH,\nGREAT\nSISFS, NIDHI-SSP, TIDE 2.0, iDEX,\nIN-SPACe Seed Fund, DCIS\nGrant (funding with no repayment) Equity Investment (you give a stake)\nSISFS, BIG, iDEX, ADITI, PRAYAS 2.0,\nDCIS, IN-SPACe Seed Fund, RKVY,\nSPARSH, GREAT, NQM\nFFS, Startup India FoF 2.0, AcE,\nAgriSURE, BIRAC SEED, LEAP Fund,\nSAMRIDH, Antariksh VCF, NIDHI-SSP\nCGSS, CGTMSE, PMMY, Stand Up\nIndia\nLoan / Credit Guarantee\nSIPP, GeM Startup Runway\nIP Protection / Market Access\nDefence /\nAllied Space Biotech /\nAllied\nAgriculture\n/ Food\nSemicon /\nElectronics\nQuantum\nTechnology\niDEX,"
+      }
+    ],
+    "prompt_length": 5717,
+    "answer_text": "The grants available for biotechnology startups are:\n\n- BIRAC Incubator SEED Fund\n- SEED BIRAC Incubator SEED Fund\n- LEAP Fund - Launching Entrepreneurial Driven Affordable Products\n- SPARSH\n- Social Innovation Programme for Products Affordable & Relevant to Social Health\n- AgriSURE Agri Fund for Startups & Rural Enterprises\n- RKVY Innovation & Agri-Entrepreneurship Program\n- SAMRIDH\n- Startup Accelerators of MeitY for Product Innovation, Development & Growth\n- GENESIS Gen-Next Support for Innovative Startups\n- STPI NGIS\n- Software Technology Parks of India - Next Generation Incubation Scheme\n- C2S Programme Chips to Startup\n- iDEX Innovations for Defence Excellence\n- ADITI Acing Development of Innovative Technologies with iDEX\n- TDF Technology Development Fund",
+    "answer_length": 771,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 74
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 6
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 44
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 45
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 9
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 2.4238334000001487,
+    "total_latency_seconds": 6.466098100001545
+  },
+  {
+    "query": "I need ₹50 lakh for an MVP. Which funding schemes may be relevant?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.2959297000015795,
+    "retrieval_results": [
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:2261:-5033221371519273820:4",
+        "score": 0.7068073749542236,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 14,
+        "content_preview": "commercialise\ninnovations.\nIndividual\ninnovators,\nstartups and\nMSMEs with\ntechnology/prod\nuct innovation\nideas.\n[GRANT] Up to ₹50\nlakh\ndepending on\nPRISM\nphase/catego\nry Department\nof Scientific &\nIndustrial\nResearch\n(DSIR)\nGrassroots\ninnovation\nGrant-in-aid\n/ prototype\nsupport +\nmentoring"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1511:-2449616026564664477:2",
+        "score": 0.6919305324554443,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 92,
+        "content_preview": "service and related ‘go -to market’ initiatives for a startup with a novel\nFinTech idea or solution.\n✅ WHO\nCAN APPLY?\n• FinTech startup with a novel FinTech idea or solution with the focus on\nconverting that idea into a Minimum Viable Product.\n💰 WHAT DO\nYOU GET?\n• Fintech Startup Grant of up to ₹15 lakh\n• Proof of Concept (PoC) grant of up to ₹50 lakh\n• Sand-box grant of up to ₹30 lakh\n• Green FinTech Grant of up to ₹75 lakh\n• For accelerators - Accelerator Grant of up to ₹10 lakh.\n🚀 HOW TO\nAPPLY\nTo know more: https://ifsca.gov.in/Pages/Contents/HowToApply\n🔗 KEY\nLINKS\n• Website: https://ifsca.gov.in/Pages/Contents/FinTech\n• Operational Guidelines: https://ifsca.gov.in/Document/Developments/29-\nifsca-fintech-incentive-scheme-202225042022010125.pdf\n💡 BEST"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1668:1730135134211626839:3",
+        "score": 0.687589168548584,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 43,
+        "content_preview": "up to ₹3.5 crore is provided to an eligible startup.\n🚀 HOW TO\nAPPLY\n• Apply on: https://birac.nic.in/aceFund.php\n🔗 KEY\nLINKS\n• Guidelines: https://birac.nic.in/webcontent/ace_fund_guidelines.pdf ;\nhttps://birac.nic.in/webcontent/fund_of_funds_AcE_fund.pdf\n• FAQs:\nhttps://birac.nic.in/webcontent/1680262332_AcE_FAQ_revised.pdf\n💡 BEST\nSUITED FOR\nScaling"
+      },
+      {
+        "chunk_id": "Brochure_GENESIS.pdf:2050:-4781139275031318352:1",
+        "score": 0.6820558309555054,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Brochure_GENESIS.pdf",
+        "page_number": 2,
+        "content_preview": "Funding Support to Pilot/Investment,Early-stage and\ndeep-tech startups\nPrivate sector matching funding of 1:1 for the investment component of the scheme with\navg. funding of Rs. 40 Lakhs up to Rs. 50 Lakhs.\nPilot funding to startup with avg. funding of Rs. 40Lakhs up to Rs. 50 Lakhs without any\nmatching fund requirement.\nSupport the early-stage startups with funding up to Rs. 10 Lakhs without any matching\nfund requirement.\nThere is also provision to support some deep-tech startups by providing funding support\nwith an upper ceiling of Rs. 1 Cr per startup without any matching fund requirement.\nStrengthen the ecosystem and build brand and recognition of\nMeitY Startups-related Initiatives\nGENESIS Startup Platform: Single-window solution of all startup centric schemes of"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:2194:6274035544788423713:4",
+        "score": 0.6804633736610413,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 16,
+        "content_preview": "support\npromising\nsoftware/product\nstartups with\nservices and\nmatching funding.\nExisting\nIT/software\nproduct startups\nselected through\nSAMRIDH\naccelerators.\n[EQUITY]\nMatching\nfunding up to\n₹40 lakh per\nstartup via\nselected\naccelerators"
+      }
+    ],
+    "prompt_length": 4327,
+    "answer_text": "[GRANT] Up to ₹50 lakh depending on PRISM phase/category Department of Scientific & Industrial Research (DSIR) Grassroots innovation Grant-in-aid / prototype support + mentoring",
+    "answer_length": 177,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 14
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 92
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 43
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Brochure_GENESIS.pdf",
+        "page_number": 2
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 16
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 1.3894717000002856,
+    "total_latency_seconds": 5.48618930000157
+  },
+  {
+    "query": "Which grants support women founders?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.24349749999964843,
+    "retrieval_results": [
+      {
+        "chunk_id": "NIDHI-SEED.pdf:2328:8192974593877833722:3",
+        "score": 0.6902058720588684,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI-SEED.pdf",
+        "page_number": 4,
+        "content_preview": ". The grant would be released in about 2-5 rounds with a max of Rs. 500.00 Lakhs per roundbased on the assessment of the perceived needs of startups requiring seed funds and the capacityand capabilities of the Incubator for implementing the NIDHI- Seed Support Program.3. The support/round should be utilized in about 2-3 years.7.0 Quantum and Disbursement of the Nidhi- Seed Support (SS) Program Funds to theStartups.1. The Seed Support size for the startups shall be capped at Rs 100 lakhs per startup (Rs"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:2251:8876656686227468614:3",
+        "score": 0.6835866570472717,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 58,
+        "content_preview": "machinery/equipment.\n💰 WHAT DO\nYOU GET?\n• Grant-in-aid of normally up to ₹50 lakh per approved proposal for up to 18\nmonths.\n• Funding is released milestone-wise, generally in 40:40:20 instalments.\n• Associated incubators receive an additional 10% of the sanctioned\nGovernment grant share for mentoring, due diligence and monitoring\nsupport.\n• Intellectual property generated remains with the innovator/startup or may\nbe jointly shared with the incubator as per their agreement.\n🚀 HOW TO\nAPPLY\n• Apply online through the GREAT portal when applications are invited by\nNTTM/Ministry of Textiles.\nhttps://nttm.texmin.gov.in/StartupRegistration/StartupUserRegistration\n🔗 KEY\nLINKS\n• GREAT Application Portal:"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1439:-8794845417290785015:2",
+        "score": 0.6787997484207153,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 44,
+        "content_preview": "disbursed to startups under this program through the incubators. The\nfunding support aims to enhance startups’ ability to raise investments from\nAngel/Venture capitalist or to seek loans from commercial banks /financial\ninstitutions.\n✅ WHO\nCAN APPLY?\n• Biotech/Med-Tech/Life Sciences startups.\n💰 WHAT DO\nYOU GET?\n• Seed funding as equity and equity linked instruments up to ₹30 lakh per\nstartup.\n🚀 HOW TO\nAPPLY\n• Refer to the BIRAC Incubator SEED Fund Scheme website for more\ninformation of the incubators associated with the program:\nhttps://www.birac.nic.in/seedFundNew.php\n🔗 KEY\nLINKS\n• Website: https://www.birac.nic.in/seedFundNew.php\n• Operational Guidelines:\nhttps://www.birac.nic.in/webcontent/1616486925_seed_fund_Guidelines.\npdf\n💡 BEST\nSUITED FOR\nSeed"
+      },
+      {
+        "chunk_id": "NIDHI PRAYAS 2.0.pdf:1985:8973406227394784725:3",
+        "score": 0.6711596250534058,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI PRAYAS 2.0.pdf",
+        "page_number": 10,
+        "content_preview": "13. Preference may be given to the following innovators :-\n\n1. having bootstrapped or have co-investment commitments.\n2. having clear roadmap for commercialization\n3. Women innovators\n4. Young innovators\n5. Deep Tech Innovators/ Researchers\n6. Innovators/Startups with Patents\n\n14. Prior Funding Disclosure and Eligibility:\n\n- All applicants must submit an undertaking detailing all previous funding\nreceived from government grants/programs (including amounts) and from\nprivate sources (such as friends and family, angel investors, venture\ncapitalists, etc.).\n- Applicants must specifically declare if they have previously received funding\nunder NIDHI PRAYAS 1.0."
+      },
+      {
+        "chunk_id": "Brochure_GENESIS.pdf:2050:-4781139275031318352:1",
+        "score": 0.6710717678070068,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Brochure_GENESIS.pdf",
+        "page_number": 2,
+        "content_preview": "Funding Support to Pilot/Investment,Early-stage and\ndeep-tech startups\nPrivate sector matching funding of 1:1 for the investment component of the scheme with\navg. funding of Rs. 40 Lakhs up to Rs. 50 Lakhs.\nPilot funding to startup with avg. funding of Rs. 40Lakhs up to Rs. 50 Lakhs without any\nmatching fund requirement.\nSupport the early-stage startups with funding up to Rs. 10 Lakhs without any matching\nfund requirement.\nThere is also provision to support some deep-tech startups by providing funding support\nwith an upper ceiling of Rs. 1 Cr per startup without any matching fund requirement.\nStrengthen the ecosystem and build brand and recognition of\nMeitY Startups-related Initiatives\nGENESIS Startup Platform: Single-window solution of all startup centric schemes of"
+      }
+    ],
+    "prompt_length": 5250,
+    "answer_text": "NIDHI PRAYAS 2.0",
+    "answer_length": 16,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI-SEED.pdf",
+        "page_number": 4
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 58
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 44
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI PRAYAS 2.0.pdf",
+        "page_number": 10
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Brochure_GENESIS.pdf",
+        "page_number": 2
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 1.0939951000000292,
+    "total_latency_seconds": 4.8191477000000305
+  },
+  {
+    "query": "What documents are required for Startup India Seed Fund?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.2566030000016326,
+    "retrieval_results": [
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1411:875700406893641389:1",
+        "score": 0.7912712693214417,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 8,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 9 of 14\nGuidelines for Startup India Seed Fund Scheme\ni. An online call for applications shall be hosted on an ongoing basis on the\nStartup India portal\nii. Applicants can apply for seed fund to any three incubators selected as\ndisbursing partners for this scheme in order of their preference\niii. All applications received will be shared online with respective incubators\nfor further evaluation\niv. The applicant may be asked to submit details on team profile, problem\nstatement, product/service overview, business model, customer profile,\nmarket size, quantum of funds needed, projected utilization plan for funds,\netc."
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1791:2497009402756335749:1",
+        "score": 0.7898480892181396,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 1 of 14\nGuidelines for Startup India Seed Fund Scheme\nGuidelines for Startup India Seed Fund Scheme\n\n1. Introduction\nEasy availability of capital is essential for entrepreneurs at the early stages of\ngrowth of an enterprise. Funding from angel investors and venture capital firms\nbecomes available to startups only after the proof of concept has been provided.\nSimilarly, banks provide loans only to asset -backed applicants. It is essential to\nprovide seed funding to startups with an innovativ e idea to conduct proof of\nconcept trials.\nStartup India Seed Fund Scheme (SISFS) aims to provide financial assistance to"
+      },
+      {
+        "chunk_id": "THE GAZETTE OF INDIA.pdf:3365:8414177092466465309:4",
+        "score": 0.7757688760757446,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6,
+        "content_preview": "7. Any startup will not receive seed support more than once each as per provisions of guidelines.\n6. Eligibility Criteria for Incubators: The eligibility criteria for an incubator to apply in the Startup India\nSeed Fund scheme are as follows:\n1. Incubator must be a legal entity:\na) A society registered under the Societies Registration Act 1860, or\nb) A Trust registered under the Indian Trusts Act 1882, or\nc) A Private Limited company registered under the Co mpanies Act 1956 or the Companies Act 2013,\nor\nd) A statutory body created through an Act of legislature\n2. Incubator should be operational for at least two years on the date of application to the scheme\n3. Incubator must have facilities to seat at least 25 individuals"
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1794:235251578886473154:1",
+        "score": 0.7736338376998901,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 2,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 3 of 14\nGuidelines for Startup India Seed Fund Scheme\n3.2 Eligibility Criteria for Incubators\nThe eligibility criteria for an incubator to apply in the Startup India Seed Fund\nscheme are as follows:\n1. Incubator must be a legal entity:\na) A society registered under the Societies Registration Act 1860, or\nb) A Trust registered under the Indian Trusts Act 1882, or\nc) A Private Limited company registered under the Companies Act 1956 or\nthe Companies Act 2013, or\nd) A statutory body created through an Act of legislature\n2. Incubator should be operational for at least two years on the date of\napplication to the scheme"
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:2185:4030671021600041080:1",
+        "score": 0.7698695659637451,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 10,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 11 of 14\nGuidelines for Startup India Seed Fund Scheme\nxii. An applicant, if rejected once, may apply afresh\n\n7.3 EAC may lay down improv ed guidelines for selection of startups under the\nscheme from time to time\n8. Guidelines for Disbursement of Seed Fund to Startups by Incubators\n8.1 Seed Fund to an eligible startup by the incubator shall be disbursed as follows:\n1. Up to Rs. 20 Lakhs as grant for validation of Proof of Concept, or prototype\ndevelopment, or product trials. The grant shall be disbursed in milestone -\nbased installments. These milestones can be related to development of\nprototype, product testing, building a product ready for market launch, etc."
+      }
+    ],
+    "prompt_length": 5585,
+    "answer_text": "[CONTEXT 1]\nOrganization: unknown\nSource Document: Guidelines for Startup India Seed Fund Scheme.pdf\nPage Number: 8\nSimilarity Score: 0.7912712693214417\n\nContent:\nMinistry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 9 of 14\nGuidelines for Startup India Seed Fund Scheme\ni. An online call for applications shall be hosted on an ongoing basis on the\nStartup India portal\nii. Applicants can apply for seed fund to any three incubators selected as\ndisbursing partners for this scheme in order of their preference\niii. All applications received will be shared online with respective incubators\nfor further evaluation\niv. The applicant may be asked to submit details on team profile, problem\nstatement, product/service overview, business model, customer profile,\nmarket size, quantum of funds needed, projected utilization plan for funds,\netc.",
+    "answer_length": 879,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 8
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 2
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 10
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 2.4013406999984,
+    "total_latency_seconds": 6.534258600000612
+  },
+  {
+    "query": "What are the eligibility requirements for the Startup India Seed Fund Scheme?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.26206010000169044,
+    "retrieval_results": [
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1693:4294481482929126050:1",
+        "score": 0.8728657960891724,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 2 of 14\nGuidelines for Startup India Seed Fund Scheme\n3. Eligibility Criteria:\n3.1 Eligibility Criteria for Startups\nThe eligibility criteria for a startup to apply under the Startup India Seed Fund\nScheme shall be as follows:\n1. A startup, recognized by DPIIT, incorporated not more than 2 years ago at\nthe time of application\n2. Startup must have a business idea to develop a product or a service with\nmarket fit, viable commercialization, and scope of scaling\n3. Startup should be using technology in its core product or service, or\nbusiness model, or distribution model, or methodology to solve the\nproblem being targeted"
+      },
+      {
+        "chunk_id": "THE GAZETTE OF INDIA.pdf:3365:8414177092466465309:4",
+        "score": 0.8584089875221252,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6,
+        "content_preview": "7. Any startup will not receive seed support more than once each as per provisions of guidelines.\n6. Eligibility Criteria for Incubators: The eligibility criteria for an incubator to apply in the Startup India\nSeed Fund scheme are as follows:\n1. Incubator must be a legal entity:\na) A society registered under the Societies Registration Act 1860, or\nb) A Trust registered under the Indian Trusts Act 1882, or\nc) A Private Limited company registered under the Co mpanies Act 1956 or the Companies Act 2013,\nor\nd) A statutory body created through an Act of legislature\n2. Incubator should be operational for at least two years on the date of application to the scheme\n3. Incubator must have facilities to seat at least 25 individuals"
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1794:235251578886473154:1",
+        "score": 0.8563584089279175,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 2,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 3 of 14\nGuidelines for Startup India Seed Fund Scheme\n3.2 Eligibility Criteria for Incubators\nThe eligibility criteria for an incubator to apply in the Startup India Seed Fund\nscheme are as follows:\n1. Incubator must be a legal entity:\na) A society registered under the Societies Registration Act 1860, or\nb) A Trust registered under the Indian Trusts Act 1882, or\nc) A Private Limited company registered under the Companies Act 1956 or\nthe Companies Act 2013, or\nd) A statutory body created through an Act of legislature\n2. Incubator should be operational for at least two years on the date of\napplication to the scheme"
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1411:875700406893641389:1",
+        "score": 0.8161594271659851,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 8,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 9 of 14\nGuidelines for Startup India Seed Fund Scheme\ni. An online call for applications shall be hosted on an ongoing basis on the\nStartup India portal\nii. Applicants can apply for seed fund to any three incubators selected as\ndisbursing partners for this scheme in order of their preference\niii. All applications received will be shared online with respective incubators\nfor further evaluation\niv. The applicant may be asked to submit details on team profile, problem\nstatement, product/service overview, business model, customer profile,\nmarket size, quantum of funds needed, projected utilization plan for funds,\netc."
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1791:2497009402756335749:1",
+        "score": 0.7930964231491089,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade\nPage 1 of 14\nGuidelines for Startup India Seed Fund Scheme\nGuidelines for Startup India Seed Fund Scheme\n\n1. Introduction\nEasy availability of capital is essential for entrepreneurs at the early stages of\ngrowth of an enterprise. Funding from angel investors and venture capital firms\nbecomes available to startups only after the proof of concept has been provided.\nSimilarly, banks provide loans only to asset -backed applicants. It is essential to\nprovide seed funding to startups with an innovativ e idea to conduct proof of\nconcept trials.\nStartup India Seed Fund Scheme (SISFS) aims to provide financial assistance to"
+      }
+    ],
+    "prompt_length": 5560,
+    "answer_text": "The eligibility requirements for the Startup India Seed Fund Scheme are as follows:\n1. A startup, recognized by DPIIT, incorporated not more than 2 years ago at the time of application.\n2. Startup must have a business idea to develop a product or a service with market fit, viable commercialization, and scope of scaling.\n3. Startup should be using technology in its core product or service, or business model, or distribution model, or methodology to solve the problem being targeted.",
+    "answer_length": 485,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 2
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 8
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 1.7866315999999642,
+    "total_latency_seconds": 5.6683211999989
+  },
+  {
+    "query": "Which schemes support technology startups?",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.2325559000018984,
+    "retrieval_results": [
+      {
+        "chunk_id": "THE GAZETTE OF INDIA.pdf:3365:8414177092466465309:2",
+        "score": 0.7690938711166382,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6,
+        "content_preview": "Fund Scheme shall be as follows:\n1. A startup, recognized by DPIIT, incorporated not more than 2 years ago at the time of applicatio n\n2. Startup must have a business idea to develop a product or a service with market fit, viable\ncommercialization, and scope of scaling\n3. Startup should be using technology in its core product or service, or business model, or distribution\nmodel, or methodology to solve the problem being targeted\n4. Preference would be given to startups creating innovative solutions in sectors such as social impact,\nwaste management, water management, financial inclusion, education, agriculture, food processing,\nbiotechnology, healthcare, energy, mobility, defence, space, railways, oil and gas, textiles, etc."
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1983:7362055607246464193:2",
+        "score": 0.7369903922080994,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 93,
+        "content_preview": "and growth of startups/enterprises based on technologies or available\nknow-how.\n✅ WHO\nCAN APPLY?\n• Startups/MSMEs/Industries that have robust proposals, based on sound\noriginal ideas.\n💰 WHAT DO\nYOU GET?\n• Providing infrastructure and value -added services through prototyping\nfacilities, test beds, pilot implementation, etc. to Indian industries; and\ncreating a network of mentors who would provide sector -specific\nknowledge and real-world practical guidance.\n• Interested applicants are encouraged to visit the nearest incubation\ncentres to collect more information on the Call for Proposals and benefits\nbeing provided.\n🚀 HOW TO\nAPPLY\n• Interested stakeholder can visit the different Technology Development -\ncum-Incubation Centers for more details on benefits available and"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1275:-2930512858301286579:1",
+        "score": 0.7289072871208191,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 10,
+        "content_preview": "PLAYBOOK OF GOVERNMENT SCHEMES AND INITIATIVES FOR STARTUPS\nPage 11 of 107\n\n1.2 “What Do You Need?” Index\nUse this table to find schemes based on what type of support you are looking for.\n\n\n\n\nI Need... Startup-Specific\nSchemes / Programs\nStartup-Relevant\nSchemes / Programs\nGrant (Funding\nwith no\nrepayment)\nEquity\nInvestment\n(VC/angel)\nLoan or Credit\nSupport\nIncubation /\nLab / Mentoring\nIP Protection\n(Patents,\nTrademarks)\n\nMarket Access\n/ Sell to\nGovernment\nSector-Specific\nSupport\nSISFS, BIG, PRAYAS 2.0,\niDEX, ADITI, DCIS, IN-\nSPACe Seed Fund, RKVY,\nSPARSH, GREAT, NQM\nTIDE 2.0, BIPP, SBIRI,\nPRISM, PACE, E-YUVA,\nSITARE, NM-ICPS, MAHIR\n\nFFS, Startup India FoF 2.0,\nAcE, AgriSURE, BIRAC\nSEED, LEAP Fund,\nSAMRIDH\n\nAntariksh VCF, SRI Fund,\nSBIRI"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1402:2295703184573745956:1",
+        "score": 0.725652813911438,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 75,
+        "content_preview": "PLAYBOOK OF GOVERNMENT SCHEMES AND INITIATIVES FOR STARTUPS\n\nPage 76 of 107\nTIDE 2.0 – Technology Incubation & Development\nof Entrepreneurs\nMinistry of Electronics and Information Technology (MeitY)\n\n📌 WHAT IS\nTHIS?\nTIDE 2.0 helps early -stage tech startups get funding, incubation, and\nmentoring so they can turn ideas and prototypes into market-ready products.\n🎯\nOBJECTIVES\n• TIDE 2.0 scheme is a fellowship/grant for aspiring entrepreneurs, aiming\nto create a holistic ecosystem by providing financial and technical support\nto technology startups by creating necessary linkages.\n✅ WHO\nCAN APPLY?\n• Information Technology based, DPIIT-recognised startups.\n💰 WHAT DO\nYOU GET?\nExtended to Entrepreneurs-in-residence (EiR) at various stages:"
+      },
+      {
+        "chunk_id": "Details_of_Technology_Incubation_and_Development_of_EntrepreneursTIDE_Scheme_Rev.pdf:2724:1049571366851546687:1",
+        "score": 0.7218471765518188,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Details_of_Technology_Incubation_and_Development_of_EntrepreneursTIDE_Scheme_Rev.pdf",
+        "page_number": 1,
+        "content_preview": "2\n\nIt is proposed to support such initiatives by providing financial an d policy support for\nstrengthening technology incubation activity. This would nurture technology innovation\nand, in the long run, enable local development of Electronics and IT products and\npackages.\n5. Implementation Mechanism\nThe following mechanism will be followed for implementation of the scheme:\n5. 1 Invitation of Proposals\nThe project proposals for TIDE would be invited (as per the enclosed format) from\ninstitutions of higher learning conducting education Programmes of M. Tech/PhD in\nEngineering and Technology in ICT, Electronics and Management. These include\ninstitutions such as IITs, IIMs, NITs, IIITs and other premier institutes. The invitation\nwould also be published on the DeitY website."
+      }
+    ],
+    "prompt_length": 5714,
+    "answer_text": "TIDE 2.0, SPARSH, GREAT, NQM, PRISM, PACE, E-YUVA, SITARE, NM-ICPS, MAHIR, FFS, Startup India FoF 2.0, AcE, AgriSURE, BIRAC, SEED, LEAP Fund, SAMRIDH, Antariksh VCF, SRI Fund, SBIRI",
+    "answer_length": 181,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 93
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 10
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 75
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Details_of_Technology_Incubation_and_Development_of_EntrepreneursTIDE_Scheme_Rev.pdf",
+        "page_number": 1
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 1.7565055999984907,
+    "total_latency_seconds": 5.484101699999883
+  },
+  {
+    "query": "Tell me the weather in Pune tomorrow.",
+    "retrieval_count": 5,
+    "retrieval_latency_seconds": 0.2576392999981181,
+    "retrieval_results": [
+      {
+        "chunk_id": "NIDHI PRAYAS 2.0.pdf:1776:-2440591449221532673:1",
+        "score": 0.5354770421981812,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI PRAYAS 2.0.pdf",
+        "page_number": 20,
+        "content_preview": "19\n\n\nContact Information of Program Management Unit (PMU)\nNIDHI PRAYAS PMU\nSociety for Innovation and Entrepreneurship (SINE),\n5th Floor, Rahul Bajaj Technology Innovation Centre\n(RBTIC) Building, IIT Bombay, Powai, Mumbai 400 076\nEmail: nidhiprayas@sineiitb.org\nWebsite: https://nidhi-prayas.org\nContact No.: 022-25767016; Ext. No.: 520 / 519\n\nAcceptance and Processing of Application to Establish a PC\n\nThe call for proposals would be at intervals as decided by DST, wherein a\nperiod of one month would be given for submission of proposal after the date\nof call of proposal.\n11.0 Evaluation of Proposal\nThe evaluation of the proposals will be done on two levels: Level 1 and Level 2.\nLevel 1: The initial Scrutiny and evaluation will be done with basic eligibility"
+      },
+      {
+        "chunk_id": "Startup-Schemes-Playbook-June-2026.pdf:1916:-4405121049953932565:3",
+        "score": 0.5255235433578491,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 96,
+        "content_preview": "🚀 HOW TO\nAPPLY\n• Please visit the DST website to know more:\nhttps://dst.gov.in/callforproposals/science-technology-and-innovation-sti-\nhubs-development-scheduled-caste-sc-and\n🔗 KEY\nLINKS\n• Website: https://dst.gov.in/callforproposals/science-technology-and-\ninnovation-sti-hubs-development-scheduled-caste-sc-and\n• Operational Guidelines:\nhttps://dst.gov.in/sites/default/files/Science%20Technology%20and%20I\nnnovation%20%28STI%29%20Hubs%20for%20Development%20of%20\nScheduled%20Caste%20%28SC%29%20and%20Scheduled%20Tribe%\n20%28ST%29%20Communities_1.pdf\n💡 BEST\nSUITED FOR\nIncubation / Livelihood Innovation"
+      },
+      {
+        "chunk_id": "NIDHI PRAYAS 2.0.pdf:1842:19810746009560135:3",
+        "score": 0.5212386250495911,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI PRAYAS 2.0.pdf",
+        "page_number": 19,
+        "content_preview": "copies of the NIDHI PRAYAS 2.0 applications to either DST or the PMU.\n\nContact Information of DST\n1.) Sh. Praveen Roy,\nScientist ‘G’ & Head, Technology Translation & Innovation Division,\nDept. of Science & Technology, Ministry of Science & Technology, Govt. of\nIndia\nContact No.: 011-26590316,\n\n2.) Dr. Pramod S.,\nProgram Officer, NIDHI PRAYAS\nTechnology Translation & Innovation Division,\nDept. of Science & Technology, Ministry of Science & Technology, Govt. of\nIndia\nContact No.: 011-26590219"
+      },
+      {
+        "chunk_id": "NIDHI-EIR Guidelines.pdf:2137:-3600007082579963433:4",
+        "score": 0.5196487903594971,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI-EIR Guidelines.pdf",
+        "page_number": 7,
+        "content_preview": "Dr.Homi Bhabha Road,\nPune – 411008\n\nPhone: +91 20 25865877\nEmail: NIDHI-EIR@venturecenter.co.in\nWeb-site: www.venturecenter.co.in\n\n\nProcedure for Submission of Application by NIDHI-EIR:"
+      },
+      {
+        "chunk_id": "INCLUSIVE TBI.pdf:2223:7762490035186484770:2",
+        "score": 0.5087258815765381,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "INCLUSIVE TBI.pdf",
+        "page_number": 4,
+        "content_preview": "remain under the charge of DST.\n\n\n4. Submission of Proposal: Proposal in the prescribed proforma along with the necessary\nenclosures is to be submitted at department’s online portal http://onlinedst.gov.in\na. For communication following address may be used:-\nThe Member Secretary,\nNational Science & Technology Entrepreneurship Development Board,\nDepartment of Science & Technology, Technology Bhawan, New Mehrauli Road,\nNew Delhi-110016.\nProgram: Inclusive - Technology Business Incubator (i-TBI)\nE-mail: praveen.roy@nic.in\n\nb. Enclosures to be submitted with the proposal by the institutions other than the Public\nInstitutions\n1 Registration Certificate of the Host Institute\n2 Memorandum of Association and Article of Association of the Host Institute"
+      }
+    ],
+    "prompt_length": 4633,
+    "answer_text": "I am unable to provide the weather in Pune tomorrow.",
+    "answer_length": 52,
+    "answer_sources": [
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI PRAYAS 2.0.pdf",
+        "page_number": 20
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Startup-Schemes-Playbook-June-2026.pdf",
+        "page_number": 96
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI PRAYAS 2.0.pdf",
+        "page_number": 19
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "NIDHI-EIR Guidelines.pdf",
+        "page_number": 7
+      },
+      {
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "INCLUSIVE TBI.pdf",
+        "page_number": 4
+      }
+    ],
+    "granite_model_id": "ibm/granite-8b-code-instruct",
+    "inference_method": "chat",
+    "granite_latency_seconds": 1.2792291000005207,
+    "total_latency_seconds": 4.887009600002784
+  }
+]

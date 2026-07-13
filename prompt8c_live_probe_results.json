@@ -1,0 +1,290 @@
+{
+  "ibm_watsonx_ai_version": "1.5.14",
+  "env": {
+    "GRANITE_MODEL_ID": "",
+    "WATSONX_MODEL_ID": "",
+    "MODEL_ID": "ibm/granite-8b-code-instruct",
+    "IBM_URL": "https://au-syd.ml.cloud.ibm.com",
+    "PROJECT_ID_SET": true
+  },
+  "watsonx_url": "https://au-syd.ml.cloud.ibm.com",
+  "project_id_present": true,
+  "available_granite_models": [
+    {
+      "model_id": "ibm/granite-3-1-8b-base",
+      "label": "granite-3-1-8b-base",
+      "task_ids": [
+        "question_answering",
+        "summarization",
+        "retrieval_augmented_generation",
+        "classification",
+        "generation",
+        "code",
+        "extraction",
+        "translation",
+        "function_calling",
+        "code-generation",
+        "code-explanation",
+        "code-fixing"
+      ],
+      "functions": [
+        "base_foundation_model_deployable",
+        "lora_fine_tune_trainable"
+      ],
+      "lifecycle": [
+        {
+          "id": "available",
+          "start_date": "2025-04-16"
+        }
+      ],
+      "short_description": "Granite 3.1 8b base is a pre-trained autoregressive foundation model with a context length of 128k intended for tuning.",
+      "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community.",
+      "lower_functions": [
+        "base_foundation_model_deployable",
+        "lora_fine_tune_trainable"
+      ]
+    },
+    {
+      "model_id": "ibm/granite-8b-code-instruct",
+      "label": "granite-8b-code-instruct",
+      "task_ids": [
+        "question_answering",
+        "summarization",
+        "classification",
+        "generation",
+        "code",
+        "extraction",
+        "code-generation",
+        "code-explanation",
+        "code-fixing"
+      ],
+      "functions": [
+        "text_chat",
+        "text_generation"
+      ],
+      "lifecycle": [
+        {
+          "id": "available",
+          "start_date": "2024-05-09"
+        },
+        {
+          "id": "deprecated",
+          "start_date": "2026-05-05"
+        },
+        {
+          "id": "withdrawn",
+          "start_date": "2026-08-08"
+        }
+      ],
+      "short_description": "The Granite model series is a family of IBM-trained, dense decoder-only models, which are particularly well-suited for generative tasks.",
+      "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community.",
+      "lower_functions": [
+        "text_chat",
+        "text_generation"
+      ]
+    },
+    {
+      "model_id": "ibm/granite-guardian-3-8b",
+      "label": "granite-guardian-3-8b",
+      "task_ids": [
+        "question_answering",
+        "summarization",
+        "classification",
+        "generation",
+        "extraction"
+      ],
+      "functions": [
+        "text_chat",
+        "text_generation"
+      ],
+      "lifecycle": [
+        {
+          "id": "available",
+          "start_date": "2024-10-21"
+        },
+        {
+          "id": "deprecated",
+          "start_date": "2026-05-05"
+        },
+        {
+          "id": "withdrawn",
+          "start_date": "2026-08-08"
+        }
+      ],
+      "short_description": "The Granite model series is a family of IBM-trained, dense decoder-only models, which are particularly well-suited for generative tasks.",
+      "long_description": "Granite models are designed to be used for a wide range of generative and non-generative tasks with appropriate prompt engineering. They employ a GPT-style decoder-only architecture, with additional innovations from IBM Research and the open community.",
+      "lower_functions": [
+        "text_chat",
+        "text_generation"
+      ]
+    },
+    {
+      "model_id": "ibm/granite-ttm-1024-96-r2",
+      "label": "granite-ttm-1024-96-r2",
+      "task_ids": null,
+      "functions": [
+        "time_series_forecast"
+      ],
+      "lifecycle": [
+        {
+          "id": "available",
+          "start_date": "2024-11-21"
+        }
+      ],
+      "short_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research",
+      "long_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. Given the last 1024 time-points (i.e. context length), this model can forecast up to next 96 time-points (i.e. forecast length) in future. This model is targeted towards a forecasting setting of context length 1024 and forecast length 96 and recommended for hourly and minutely resolutions (Ex. 10 min, 15 min, 1 hour, etc)"
+    },
+    {
+      "model_id": "ibm/granite-ttm-1536-96-r2",
+      "label": "granite-ttm-1536-96-r2",
+      "task_ids": null,
+      "functions": [
+        "time_series_forecast"
+      ],
+      "lifecycle": [
+        {
+          "id": "available",
+          "start_date": "2024-11-21"
+        }
+      ],
+      "short_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research",
+      "long_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. Given the last 1536 time-points (i.e. context length), this model can forecast up to next 96 time-points (i.e. forecast length) in future. This model is targeted towards a forecasting setting of context length 1536 and forecast length 96 and recommended for hourly and minutely resolutions (Ex. 10 min, 15 min, 1 hour, etc)"
+    },
+    {
+      "model_id": "ibm/granite-ttm-512-96-r2",
+      "label": "granite-ttm-512-96-r2",
+      "task_ids": null,
+      "functions": [
+        "time_series_forecast"
+      ],
+      "lifecycle": [
+        {
+          "id": "available",
+          "start_date": "2024-11-21"
+        }
+      ],
+      "short_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research",
+      "long_description": "TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. Given the last 1024 time-points (i.e. context length), this model can forecast up to next 96 time-points (i.e. forecast length) in future. This model is targeted towards a forecasting setting of context length 1024 and forecast length 96 and recommended for hourly and minutely resolutions (Ex. 10 min, 15 min, 1 hour, etc)"
+    }
+  ],
+  "retrieval": {
+    "query": "What are the eligibility requirements for the Startup India Seed Fund Scheme?",
+    "count": 5,
+    "top_k": 5,
+    "similarity_threshold": 0.2,
+    "latency_seconds": 0.23523629999908735,
+    "results": [
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1693:4294481482929126050:1",
+        "score": 0.8728657960891724,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade Page 2 of 14 Guidelines for Startup India Seed Fund Scheme 3. Eligibility Criteria: 3.1 Eligibility Criteria f"
+      },
+      {
+        "chunk_id": "THE GAZETTE OF INDIA.pdf:3365:8414177092466465309:4",
+        "score": 0.8584089875221252,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "THE GAZETTE OF INDIA.pdf",
+        "page_number": 6,
+        "content_preview": "7. Any startup will not receive seed support more than once each as per provisions of guidelines. 6. Eligibility Criteria for Incubators: The eligibility criteria for an incubator to apply in the Star"
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1794:235251578886473154:1",
+        "score": 0.8563584089279175,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 2,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade Page 3 of 14 Guidelines for Startup India Seed Fund Scheme 3.2 Eligibility Criteria for Incubators The eligibi"
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1411:875700406893641389:1",
+        "score": 0.8161594271659851,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 8,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade Page 9 of 14 Guidelines for Startup India Seed Fund Scheme i. An online call for applications shall be hosted "
+      },
+      {
+        "chunk_id": "Guidelines for Startup India Seed Fund Scheme.pdf:1791:2497009402756335749:1",
+        "score": 0.7930964231491089,
+        "grant_name": null,
+        "organization": "unknown",
+        "source_document": "Guidelines for Startup India Seed Fund Scheme.pdf",
+        "page_number": 1,
+        "content_preview": "Ministry of Commerce and Industry Department for Promotion of Industry and Internal Trade Page 1 of 14 Guidelines for Startup India Seed Fund Scheme Guidelines for Startup India Seed Fund Scheme  1. I"
+      }
+    ],
+    "prompt_length": 5560,
+    "prompt_prefix": "SYSTEM INSTRUCTION\nYou are GrantAI, an AI assistant for Indian Government grant discovery and funding guidance.\n\nAnswer the user's question only using the retrieved context from official Government grant documents provided below.\n\nDo not use general knowledge to invent or assume:\n- grant or scheme names\n- funding amounts\n- eligibility requirements\n- application deadlines\n- required documents\n- application procedures\n- organizations\n- startup requirements\n\nIf the retrieved context does not contai"
+  },
+  "candidates": [
+    {
+      "model_id": "ibm/granite-8b-code-instruct",
+      "functions": [
+        "text_chat",
+        "text_generation"
+      ],
+      "chat_supported": true,
+      "generate_supported": true,
+      "generate_text_supported": true,
+      "chat_test": {
+        "status": "SUCCESS",
+        "latency_seconds": 1.7575959999994666,
+        "answer": "The eligibility requirements for the Startup India Seed Fund Scheme are as follows:\n1. A startup, recognized by DPIIT, incorporated not more than 2 years ago at the time of application\n2. Startup must have a business idea to develop a product or a service with market fit, viable commercialization, and scope of scaling\n3. Startup should be using technology in its core product or service, or business model, or distribution model, or methodology to solve the problem being targeted",
+        "answer_length": 482,
+        "response_repr": "{'id': 'chatcmpl-89b7fd18c5cc1f1dc4d9ab50e593441d', 'object': 'chat.completion', 'model_id': 'ibm/granite-8b-code-instruct', 'model': 'ibm/granite-8b-code-instruct', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'The eligibility requirements for the Startup India Seed Fund Scheme are as follows:\\n1. A startup, recognized by DPIIT, incorporated not more than 2 years ago at the time of application\\n2. Startup must have a business idea to develop a product or a service with market fit, viable commercialization, and scope of scaling\\n3. Startup should be using technology in its core product or service, or business model, or distribution model, or methodology to solve the problem being targeted'}, 'finish_reason': 'stop'}], 'created': 1783782595, 'model_version': '1.1.1', 'created_at': '2026-07-11T15:09:56.892Z', 'usage': {'completion_tokens': 105, 'prompt_tokens': 1424, 'total_tokens': 1529}, 'system': {'warnings': [{'message': \"Model 'ibm/granite-8b-code-instruct' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'max_tokens' for this model was set to value 1024\", 'id': 'unspecified_max_token', 'additional_properties': {'limit': 0, 'new_value': 1024, 'parameter': 'max_tokens', 'value': 0}}]}}"
+      },
+      "generate_test": {
+        "status": "SUCCESS",
+        "latency_seconds": 1.4712362999998732,
+        "answer": "{'model_id': 'ibm/granite-8b-code-instruct', 'model_version': '1.1.1', 'created_at': '2026-07-11T15:09:58.419Z', 'results': [{'generated_text': '', 'generated_token_count': 1, 'input_token_count': 1416, 'stop_reason': 'eos_token'}], 'system': {'warnings': [{'message': \"Model 'ibm/granite-8b-code-instruct' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'parameters.max_new_tokens' for this model was set to value 20\", 'id': 'unspecified_max_new_tokens', 'additional_properties': {'limit': 0, 'new_value': 20, 'parameter': 'parameters.max_new_tokens', 'value': 0}}, {'message': \"The API '/ml/v1/text/generation' is deprecated and will be removed soon. Instead use '/ml/v1/text/chat'.\", 'id': 'api_deprecation'}]}}",
+        "answer_length": 940,
+        "response_repr": "{'model_id': 'ibm/granite-8b-code-instruct', 'model_version': '1.1.1', 'created_at': '2026-07-11T15:09:58.419Z', 'results': [{'generated_text': '', 'generated_token_count': 1, 'input_token_count': 1416, 'stop_reason': 'eos_token'}], 'system': {'warnings': [{'message': \"Model 'ibm/granite-8b-code-instruct' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'parameters.max_new_tokens' for this model was set to value 20\", 'id': 'unspecified_max_new_tokens', 'additional_properties': {'limit': 0, 'new_value': 20, 'parameter': 'parameters.max_new_tokens', 'value': 0}}, {'message': \"The API '/ml/v1/text/generation' is deprecated and will be removed soon. Instead use '/ml/v1/text/chat'.\", 'id': 'api_deprecation'}]}}"
+      },
+      "generate_text_test": {
+        "status": "SUCCESS",
+        "latency_seconds": 0.6094701000001805,
+        "answer": "",
+        "answer_length": 0,
+        "response_repr": "''"
+      }
+    },
+    {
+      "model_id": "ibm/granite-guardian-3-8b",
+      "functions": [
+        "text_chat",
+        "text_generation"
+      ],
+      "chat_supported": true,
+      "generate_supported": true,
+      "generate_text_supported": true,
+      "chat_test": {
+        "status": "SUCCESS",
+        "latency_seconds": 1.2024057999988145,
+        "answer": "No",
+        "answer_length": 2,
+        "response_repr": "{'id': 'chatcmpl-b45e23b5b65478ce4c5d77e60f89a1c3---ba09ede9-49f9-45a9-b02f-8804c8349967', 'object': 'chat.completion', 'model_id': 'ibm/granite-guardian-3-8b', 'model': 'ibm/granite-guardian-3-8b', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'No'}, 'finish_reason': 'stop'}], 'created': 1783782601, 'model_version': '1.0.0', 'created_at': '2026-07-11T15:10:02.282Z', 'usage': {'completion_tokens': 2, 'prompt_tokens': 1541, 'total_tokens': 1543}, 'system': {'warnings': [{'message': \"Model 'ibm/granite-guardian-3-8b' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'max_tokens' for this model was set to value 1024\", 'id': 'unspecified_max_token', 'additional_properties': {'limit': 0, 'new_value': 1024, 'parameter': 'max_tokens', 'value': 0}}]}}"
+      },
+      "generate_test": {
+        "status": "SUCCESS",
+        "latency_seconds": 1.440197600000829,
+        "answer": "{'model_id': 'ibm/granite-guardian-3-8b', 'model_version': '1.0.0', 'created_at': '2026-07-11T15:10:03.398Z', 'results': [{'generated_text': '\\n<end_of_turn>\\n\\nOur safety risk definition is defined below:\\n<', 'generated_token_count': 20, 'input_token_count': 1417, 'stop_reason': 'max_tokens'}], 'system': {'warnings': [{'message': \"Model 'ibm/granite-guardian-3-8b' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'parameters.max_new_tokens' for this model was set to value 20\", 'id': 'unspecified_max_new_tokens', 'additional_properties': {'limit': 0, 'new_value': 20, 'parameter': 'parameters.max_new_tokens', 'value': 0}}, {'message': \"The API '/ml/v1/text/generation' is deprecated and will be removed soon. Instead use '/ml/v1/text/chat'.\", 'id': 'api_deprecation'}]}}",
+        "answer_length": 1002,
+        "response_repr": "{'model_id': 'ibm/granite-guardian-3-8b', 'model_version': '1.0.0', 'created_at': '2026-07-11T15:10:03.398Z', 'results': [{'generated_text': '\\n<end_of_turn>\\n\\nOur safety risk definition is defined below:\\n<', 'generated_token_count': 20, 'input_token_count': 1417, 'stop_reason': 'max_tokens'}], 'system': {'warnings': [{'message': \"Model 'ibm/granite-guardian-3-8b' is in deprecated state from 2026-05-05. It will be in withdrawn state from 2026-08-08.\", 'id': 'deprecation_warning', 'more_info': 'https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp'}, {'message': \"The value of 'parameters.max_new_tokens' for this model was set to value 20\", 'id': 'unspecified_max_new_tokens', 'additional_properties': {'limit': 0, 'new_value': 20, 'parameter': 'parameters.max_new_tokens', 'value': 0}}, {'message': \"The API '/ml/v1/text/generation' is deprecated and will be removed soon. Instead use '/ml/v1/text/chat'.\", 'id': 'api_deprecation'}]}}"
+      },
+      "generate_text_test": {
+        "status": "SUCCESS",
+        "latency_seconds": 1.099856799999543,
+        "answer": "\n<end_of_turn>\n\nOur safety risk definition is defined below:\n<",
+        "answer_length": 62,
+        "response_repr": "'\\n<end_of_turn>\\n\\nOur safety risk definition is defined below:\\n<'"
+      }
+    }
+  ]
+}

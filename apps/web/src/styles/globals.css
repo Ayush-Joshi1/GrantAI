@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --ibm-blue: #0f62fe;
+  --ibm-cyan: #1192e8;
+  --surface: #ffffff; /* Card Background */
+  --surface-elevated: #ffffff;
+  --surface-secondary: #F7C64A; /* Main Background */
+  --surface-section: #FFF6D8; /* Secondary Sections */
+  --text-primary: #111827; /* Heading Text */
+  --text-secondary: #374151; /* Body Text */
+  --text-muted: #6B7280; /* Muted Text */
+  --border: #E5E7EB; /* Borders */
+  --hover: #F3D36C; /* Hover Background */
+  --input-bg: #ffffff;
+
+  /* Buttons */
+  --btn-primary-bg: #111827;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #1f2937;
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #111827;
+  --btn-secondary-border: #e5e7eb;
+  --btn-secondary-hover: #F3D36C;
+  --accent: #F7C64A;
+  --footer-bg: #E8B83D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--surface-secondary);
+  color: var(--text-primary);
+  font-feature-settings: "rlig" 1, "calt" 1;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+html.dark {
+  color-scheme: dark;
+  --surface: #2C3444; /* Cards */
+  --surface-elevated: #2C3444;
+  --surface-secondary: #1F2937; /* Main Background & Navbar */
+  --surface-section: #2C3444; /* Secondary Sections / Cards */
+  --text-primary: #F9FAFB; /* Primary Text */
+  --text-secondary: #D1D5DB; /* Secondary Text */
+  --text-muted: #9CA3AF; /* Muted Text */
+  --border: #4B5563; /* Borders */
+  --hover: #455066; /* Hover */
+  --input-bg: #374151;
+
+  /* Buttons */
+  --btn-primary-bg: #F7C64A; /* Accent brand yellow */
+  --btn-primary-text: #111827;
+  --btn-primary-hover: #F3D36C;
+  --btn-secondary-bg: #374151; /* Inputs / secondary buttons */
+  --btn-secondary-text: #F9FAFB;
+  --btn-secondary-border: #4B5563;
+  --btn-secondary-hover: #455066;
+  --accent: #F7C64A;
+  --footer-bg: #18212F;
+}
+
+/* Shadows and border inset rules */
+html.dark .rounded-\[24px\],
+html.dark .rounded-\[20px\],
+html.dark .rounded-\[16px\],
+html.dark .rounded-2xl,
+html.dark .rounded-xl {
+  box-shadow: 0 0 0 1px rgba(75, 85, 99, 0.7) inset;
+}
+
+html.dark body {
+  background-color: var(--surface-secondary);
+  color: var(--text-primary);
+}
+
+/* Background Overrides */
+.bg-white,
+.bg-white\/80,
+.bg-white\/90,
+.bg-white\/95,
+.dark\:bg-slate-900\/85,
+.dark\:bg-slate-900\/80,
+.dark\:bg-slate-900\/70,
+.dark\:bg-slate-900\/95,
+.dark\:bg-slate-950\/60 {
+  background-color: var(--surface) !important;
+}
+
+.bg-slate-50,
+.bg-slate-50\/70,
+.bg-slate-50\/80,
+.dark\:bg-slate-800\/70,
+.dark\:bg-slate-800\/80,
+.dark\:bg-slate-800,
+.dark\:bg-slate-900\/70 {
+  background-color: var(--surface-section) !important;
+}
+
+.bg-slate-100,
+.hover\:bg-slate-100:hover,
+.dark\:hover\:bg-slate-800:hover {
+  background-color: var(--hover) !important;
+}
+
+/* Borders */
+.border-slate-200,
+.border-slate-200\/80,
+.border-slate-300,
+.dark\:border-slate-700,
+.dark\:border-slate-800,
+.dark\:border-slate-800\/80 {
+  border-color: var(--border) !important;
+}
+
+/* Typography mappings */
+.text-slate-900,
+.text-slate-100,
+.text-white,
+.dark\:text-slate-50,
+.dark\:text-slate-100 {
+  color: var(--text-primary) !important;
+}
+
+.text-slate-700,
+.text-slate-600,
+.text-slate-300,
+.dark\:text-slate-300,
+.dark\:text-slate-400 {
+  color: var(--text-secondary) !important;
+}
+
+.text-slate-500,
+.text-slate-400,
+.dark\:text-slate-500 {
+  color: var(--text-muted) !important;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
