@@ -1,74 +1,315 @@
-# Grant Agent (IBM Hackathon)
+<div align="center">
 
-AI-powered platform to help Indian startups discover government grants, check eligibility, chat with an AI assistant, and generate grant proposals.
+# 🚀 GrantAI
+### *Agentic AI Grant & Funding Finder for Startups*
 
-This repository is structured for **Clean Architecture**, **SOLID**, and future integration of **RAG**, **IBM watsonx.ai Granite**, **watsonx Assistant**, **watsonx Orchestrate**, **ML models**, and **multiple AI agents**.
+<p align="center">
+  <strong>Empowering Indian Startups with AI-Powered Government Grant Discovery, Eligibility Analysis, Proposal Generation, and Funding Guidance.</strong>
+</p>
 
-## Repo layout (why each folder exists)
+<p align="center">
+  Built with ❤️ using <strong>IBM Granite</strong>, <strong>IBM watsonx.ai</strong>, <strong>FastAPI</strong>, <strong>React</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong>, and <strong>Multi-Agent AI</strong>.
+</p>
 
-### `apps/` (deployable applications)
-- **`apps/web/`**: React + Vite + Tailwind frontend (component-based, feature-oriented).
-  - **`public/`**: Static assets served as-is (favicons, robots.txt).
-  - **`src/app/`**: App shell (router, providers, layout, global error boundaries).
-  - **`src/features/`**: Feature modules (discover-grants, eligibility, chat, proposal-builder). Keeps domain UI cohesive and scalable.
-  - **`src/components/`**: Shared “glue” components used across multiple features (thin wrappers, composed UI).
-  - **`src/design-system/`**: Tokens + primitives + styling conventions (Tailwind config alignment).
-  - **`src/services/`**: API client, telemetry, feature flags, auth integration.
-  - **`src/state/`**: Server-state cache and minimal global state (e.g., React Query, Zustand).
-  - **`src/hooks/`**: Shared React hooks (typed, reusable).
-  - **`src/styles/`**: Global styles (Tailwind base imports, theme extensions).
-  - **`src/types/`**: Frontend-only types (or generated types from OpenAPI in the future).
-  - **`src/utils/`**: Pure utilities (formatters, validators).
+---
 
-- **`apps/api/`**: FastAPI backend (HTTP delivery + use-cases + adapters).
-  - **`src/api/`**: Delivery layer (routers/controllers, DTO schemas, middleware). No business logic.
-    - **`v1/routes/`**: Versioned routers per bounded context (grants, eligibility, chat, proposals, admin).
-    - **`v1/schemas/`**: Request/response DTOs (Pydantic) that define the API contract.
-    - **`middleware/`**: Cross-cutting HTTP concerns (correlation IDs, auth, rate limiting hooks).
-  - **`src/application/`**: Use-cases (orchestrate domain + ports). This is where “what the system does” lives.
-  - **`src/domain/`**: Pure business rules (entities, value objects, domain services). No framework imports.
-  - **`src/infrastructure/`**: Adapters/implementations for external systems (DB, vector store, IBM services, queues).
-    - **`ibm/`**: watsonx.ai Granite client, Assistant tool adapters, Orchestrate workflow adapters.
-    - **`persistence/`**: SQL/ORM repositories (Postgres), migrations strategy (future).
-    - **`vectorstore/`**: FAISS index build/load/query adapters.
-    - **`queues/`**: Background job queue adapters (Celery/RQ/Arq), retry policies, idempotency.
-    - **`storage/`**: Object storage adapters (IBM Cloud Object Storage) for docs/exports/index artifacts.
-  - **`src/core/`**: Shared cross-cutting modules used everywhere (config, logging, errors, security, observability).
-  - **`src/prompts/`**: Prompt templates (system prompts, Granite prompts, RAG answer templates). Versionable and testable.
-  - **`tests/`**: Unit/integration tests (use-case tests first; API tests second).
+![IBM](https://img.shields.io/badge/IBM-watsonx.ai-blue?style=for-the-badge)
+![Granite](https://img.shields.io/badge/IBM-Granite-black?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.11-yellow?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-Powered-success?style=for-the-badge)
 
-- **`apps/workers/`**: Background workers for long-running tasks (proposal generation, ingestion, embedding).
-  - **`src/jobs/`**: Atomic job handlers (generate proposal section, parse pdf, embed chunks).
-  - **`src/workflows/`**: Multi-step pipelines (can mirror Orchestrate workflows or run locally).
+</div>
 
-### `packages/` (shared libraries)
-- **`packages/shared-types/`**: Shared contracts/types between web and api (future: OpenAPI-generated TS types).
-- **`packages/ui-kit/`**: Reusable UI components (design system implementation), independent of app routing.
-- **`packages/python-shared/`**: Shared Python utilities (typed errors, logging helpers, config helpers).
+---
 
-### `docs/` (documentation that scales)
-- **`docs/architecture/`**: Architecture diagrams (C4), flow docs, threat model notes.
-- **`docs/adr/`**: Architecture Decision Records (why we chose X over Y).
-- **`docs/api/`**: OpenAPI exports, Postman collections, example payloads.
+# 🌟 About GrantAI
 
-### `infra/` (deployment & operations)
-- **`infra/pipelines/`**: CI/CD definitions (GitHub Actions, Tekton, etc.).
-- **`infra/terraform/`**: IBM Cloud infrastructure as code (optional).
-- **`infra/helm/`**: Kubernetes packaging (optional).
+GrantAI is an AI-powered platform designed to simplify the journey of discovering and applying for government grants. Instead of manually searching through lengthy documents, founders can interact with an intelligent assistant that recommends relevant schemes, evaluates eligibility, generates proposal drafts, analyzes deadlines, and provides actionable next steps.
 
-### `scripts/` (developer productivity)
-- Local scripts for ingestion runs, index rebuilds, data validation, and environment bootstrapping.
+The platform combines **IBM Granite Foundation Models**, **Retrieval-Augmented Generation (RAG)**, and a **Multi-Agent AI architecture** to deliver reliable, transparent, and context-aware responses grounded in official government documents.
 
-## Environment
-- Copy `.env.example` to `.env` and fill values.
+---
 
-## Documentation assets
-- Architecture notes: `docs/architecture/README.md`
-- API notes: `docs/api/README.md`
-- Submission checklist: `docs/submission_checklist.md`
-- Demo outline: `docs/demo_outline.md`
-- Diagram specifications: `docs/diagram_specifications.md`
+# 🎯 Problem Statement
 
-## Next steps
-- For final delivery, review `docs/submission_checklist.md` and perform any manual IBM Cloud configuration required for live service validation.
+**Problem Statement No. 18 – AI Grant and Funding Finder for Startups**
 
+Startups often struggle to identify suitable government funding opportunities because grant information is spread across multiple portals, documents, and organizations. Understanding eligibility criteria, deadlines, and proposal requirements is time-consuming and error-prone.
+
+GrantAI solves this challenge by bringing AI-powered grant discovery, eligibility assessment, proposal assistance, deadline analysis, and intelligent notifications into one unified platform.
+
+---
+
+# ✨ Key Features
+
+- 🔍 AI-Powered Grant Recommendation
+- ✅ Startup Eligibility Analysis
+- 📝 Intelligent Proposal Generation
+- 📅 Deadline Analysis
+- 🔔 Smart Notification & Action Guidance
+- 🤖 Conversational AI Experience
+- 📚 Retrieval-Augmented Generation (RAG)
+- ⚡ Multi-Agent Workflow Coordination
+- 📖 Evidence-Based Responses
+- 🏛 Government Grant Knowledge Base
+
+---
+
+# 🧠 AI Capabilities
+
+GrantAI consists of five specialized AI services:
+
+### 🎯 Grant Recommendation Agent
+Analyzes startup details and recommends the most relevant government funding opportunities.
+
+### 📋 Eligibility Agent
+Compares startup information against grant requirements and identifies confirmed matches, missing information, and potential eligibility gaps.
+
+### 📝 Proposal Generation Agent
+Creates structured proposal drafts using startup information and retrieved government grant evidence.
+
+### 📅 Deadline Agent
+Analyzes official grant documentation to identify application timelines while avoiding unsupported or fabricated deadlines.
+
+### 🔔 Notification Agent
+Provides practical reminders, next actions, and funding guidance based on the startup's current progress.
+
+---
+
+# 🏗 System Architecture
+
+```text
+                     Startup Founder
+                            │
+                            ▼
+                   React Frontend
+                            │
+                    Shared API Layer
+                            │
+                            ▼
+                         FastAPI
+                            │
+                  Dependency Injection
+                            │
+                            ▼
+                   Workflow Coordinator
+                            │
+      ┌─────────────────────┼─────────────────────┐
+      ▼                     ▼                     ▼
+ Grant Recommendation   Eligibility       Proposal Generator
+      │                     │                     │
+      └──────────────┬──────┴──────────────┬──────┘
+                     ▼                     ▼
+            Deadline Agent        Notification Agent
+                     │
+                     ▼
+             Prompt Builders
+                     │
+                     ▼
+          Shared RAGAnswerService
+                     │
+        Semantic Retriever + FAISS
+                     │
+                     ▼
+      IBM Granite (watsonx.ai)
+                     │
+                     ▼
+           Grounded AI Response
+```
+
+---
+
+# 📂 Knowledge Base
+
+GrantAI uses only official Government of India funding documents.
+
+### Supported Organizations
+
+- Startup India
+- DPIIT
+- BIRAC
+- MeitY
+- DST
+- NIDHI Programs
+- TIDE
+- SAMRIDH
+- GENESIS
+- BioNEST
+- BIG
+- LEAP
+
+### Dataset
+
+- 📄 21 Official Government PDFs
+- 🧩 1099 Indexed Knowledge Chunks
+- ⚡ Semantic Vector Search using FAISS
+
+---
+
+# ⚙ Technology Stack
+
+## Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## Backend
+
+- FastAPI
+- Python
+
+## Artificial Intelligence
+
+- IBM Granite Foundation Models
+- IBM watsonx.ai
+- Prompt Engineering
+- Multi-Agent AI
+
+## Retrieval
+
+- Retrieval-Augmented Generation (RAG)
+- FAISS Vector Database
+- Semantic Search
+- Metadata Enrichment
+
+## Dev Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 📌 Project Workflow
+
+```text
+Startup Information
+        │
+        ▼
+Grant Recommendation
+        │
+        ▼
+Eligibility Assessment
+        │
+        ▼
+Proposal Generation
+        │
+        ▼
+Deadline Analysis
+        │
+        ▼
+Notification Guidance
+        │
+        ▼
+Unified AI Response
+```
+
+---
+
+# 🌍 Why GrantAI?
+
+✔ Eliminates manual grant research
+
+✔ Personalized funding recommendations
+
+✔ Grounded AI responses
+
+✔ Transparent source-backed outputs
+
+✔ Faster proposal preparation
+
+✔ Startup-focused workflow
+
+✔ Scalable Agentic AI architecture
+
+---
+
+# 🚀 Future Scope
+
+- Real-time government portal synchronization
+- Automated grant application tracking
+- Multi-language support
+- PDF proposal export
+- Email and calendar reminders
+- Startup incubator dashboards
+- AI-powered application scoring
+- Human-in-the-loop proposal review
+
+---
+
+# 📊 Project Status
+
+| Module | Status |
+|----------|--------|
+| Planning | ✅ Complete |
+| Frontend | ✅ Complete |
+| Backend | ✅ Complete |
+| AI Agents | ✅ Complete |
+| RAG Pipeline | ✅ Complete |
+| IBM Granite Integration | ✅ Complete |
+| IBM watsonx.ai | ✅ Complete |
+| Multi-Agent Workflow | ✅ Complete |
+| Testing | ✅ Complete |
+
+---
+
+# 🛠 Installation
+
+```bash
+git clone <repository-url>
+
+cd GrantAI
+
+# Backend
+cd apps/api
+pip install -r requirements.txt
+
+# Frontend
+cd ../web
+npm install
+
+# Run Backend
+uvicorn app.main:app --reload
+
+# Run Frontend
+npm run dev
+```
+
+---
+
+# 📷 Screenshots
+
+> *(Add your application screenshots here)*
+
+- 🏠 Landing Page
+- 📊 Dashboard
+- 🔍 Grant Recommendation
+- ✅ Eligibility Analysis
+- 📝 Proposal Generation
+- 📅 Deadline Analysis
+- 🔔 Notification System
+- 💬 Chat Interface
+
+---
+
+# 👨‍💻 Developed By
+
+**Ayush Joshi**
+
+Computer Science Engineering Student
+
+Passionate about Artificial Intelligence, Machine Learning, Cloud Computing, and Building Intelligent Systems.
+
+---
+
+<div align="center">
+
+## ⭐ If you found this project interesting, don't forget to Star the repository!
+
+**GrantAI — Empowering Startups Through Agentic AI 🚀**
+
+</div>
