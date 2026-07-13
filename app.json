@@ -1,0 +1,42 @@
+{
+  "projectName": "GrantAI",
+  "title": "GrantAI - Agentic AI Grant & Funding Finder for Startups",
+  "problemStatement": {
+    "number": 18,
+    "title": "AI Grant and Funding Finder for Startups"
+  },
+  "description": "GrantAI is an AI-powered platform that helps startups discover government grants, evaluate eligibility, generate proposal drafts, analyze deadlines, and receive funding guidance using IBM Granite, IBM watsonx.ai, Retrieval-Augmented Generation (RAG), and a Multi-Agent workflow.",
+  "developer": {
+    "name": "Ayush Joshi"
+  },
+  "technology": {
+    "frontend": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "backend": [
+      "FastAPI",
+      "Python"
+    ],
+    "ai": [
+      "IBM Granite",
+      "IBM watsonx.ai",
+      "Prompt Engineering",
+      "RAG",
+      "FAISS",
+      "Multi-Agent AI"
+    ]
+  },
+  "features": [
+    "Grant Recommendation",
+    "Eligibility Assessment",
+    "Proposal Generation",
+    "Deadline Analysis",
+    "Notification Guidance",
+    "Unified AI Workflow"
+  ],
+  "repository": "https://github.com/Ayush-Joshi1/GrantAI",
+  "version": "1.0.0"
+}
