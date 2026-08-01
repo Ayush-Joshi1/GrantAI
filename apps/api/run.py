@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Run the GrantAI backend API.")
     parser.add_argument("--host", default=os.getenv("API_HOST", "0.0.0.0"), help="Host address to bind.")
-    parser.add_argument("--port", type=int, default=int(os.getenv("API_PORT", "8000")), help="Port to bind.")
+    parser.add_argument("--port",type=int,default=int(os.getenv("PORT", os.getenv("API_PORT", "8000"))),)
     parser.add_argument("--log-level", default=os.getenv("LOG_LEVEL", "info"), help="Uvicorn log level.")
     args = parser.parse_args()
 
