@@ -14,6 +14,11 @@ from src.application.deps import get_container, get_rag_answer_service
 from src.application.services.rag_answer_service import RAGAnswerService
 
 
+class DummyRetrievalClient:
+    def retrieve(self, **kwargs: Any) -> list[Any]:
+        return []
+
+
 def test_get_container_returns_cached_container(monkeypatch: Any) -> None:
     monkeypatch.setattr("src.application.deps.build_container", lambda: Container(
         chat=None,  # type: ignore[arg-type]
@@ -72,3 +77,14 @@ def test_existing_service_providers_still_resolve() -> None:
     assert container.eligibility is not None
     assert container.search is not None
     assert container.workflow_coordinator is not None
+
+
+def test_rag_answer_service_defers_retrieval_client_initialization() -> None:
+    service = RAGAnswerService(retrieval_client=DummyRetrievalClient())
+
+    assert service.retrieval_client is not None
+    assert service._retrieval_client_initialized is False
+
+    service._ensure_retrieval_client()
+
+    assert service._retrieval_client_initialized is True

@@ -50,9 +50,18 @@ class RAGAnswerService:
         settings: Any | None = None,
     ) -> None:
         self.settings = settings or get_rag_settings()
-        self.retrieval_client = retrieval_client or self._build_default_retrieval_client()
+        self.retrieval_client = retrieval_client
         self.prompt_builder = prompt_builder or GroundedPromptBuilder()
         self.granite_client = granite_client or GraniteClient(settings=self.settings)
+        self._retrieval_client_initialized = False
+
+    def _ensure_retrieval_client(self) -> Any:
+        if self._retrieval_client_initialized:
+            return self.retrieval_client
+
+        self.retrieval_client = self.retrieval_client or self._build_default_retrieval_client()
+        self._retrieval_client_initialized = True
+        return self.retrieval_client
 
     def answer(self, query: str) -> RAGAnswerResult:
         if not query or not query.strip():
@@ -114,7 +123,8 @@ class RAGAnswerService:
         return RAGAnswerResult(answer=answer_text.strip(), sources=sources)
 
     def _retrieve(self, query: str) -> list[RetrievalResult]:
-        return self.retrieval_client.retrieve(
+        client = self._ensure_retrieval_client()
+        return client.retrieve(
             query=query,
             top_k=self.settings.top_k,
             similarity_threshold=self.settings.similarity_threshold,

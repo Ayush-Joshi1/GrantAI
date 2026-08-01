@@ -25,7 +25,12 @@ class SentenceTransformerProvider(EmbeddingProvider):
         self.model_name = model_name
         self.batch_size = batch_size
         self.device = device
-        self.model = self._load_model()
+        self.model: SentenceTransformer | None = None
+
+    def get_model(self) -> SentenceTransformer:
+        if self.model is None:
+            self.model = self._load_model()
+        return self.model
 
     def _load_model(self) -> SentenceTransformer:
         try:
@@ -68,7 +73,8 @@ class SentenceTransformerProvider(EmbeddingProvider):
     )
     def _encode_batch(self, texts: list[str]):
         try:
-            return self.model.encode(
+            model = self.get_model()
+            return model.encode(
                 texts,
                 batch_size=self.batch_size,
                 show_progress_bar=False,
