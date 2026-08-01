@@ -18,7 +18,7 @@ export function FeaturesSection() {
     <section id="features" className="relative px-6 py-24 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} variants={fadeUp} className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-[#5BA8A0]">Features</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-[var(--accent)]">Features</p>
           <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl dark:text-white">Everything founders need to win government funding</h2>
           <p className="mt-4 text-pretty text-slate-600 dark:text-slate-400">One platform replaces weeks of portal-hopping, consultant calls, and guesswork.</p>
         </motion.div>
@@ -35,8 +35,8 @@ export function FeaturesSection() {
 
 function FeatureCard({ icon, title, desc }: { icon: ReactNode; title: string; desc: string }) {
   return (
-    <motion.div variants={fadeUp} className="group rounded-[24px] border border-slate-200/80 bg-white/80 p-6 shadow-[0_16px_50px_rgba(15,23,42,0.05)] transition hover:-translate-y-1 hover:border-[#5BA8A0]/20 hover:shadow-[0_18px_60px_rgba(15,23,42,0.08)] dark:border-slate-800 dark:bg-slate-900/70">
-      <div className="inline-flex size-11 items-center justify-center rounded-2xl bg-[#5BA8A0]/10 text-[#5BA8A0] ring-1 ring-[#5BA8A0]/20 transition group-hover:bg-[#5BA8A0]/15">
+    <motion.div variants={fadeUp} className="group rounded-[24px] border border-slate-200/80 bg-white/80 p-6 shadow-[0_16px_50px_rgba(15,23,42,0.05)] transition hover:-translate-y-1 hover:border-[var(--accent)]/20 hover:shadow-[0_18px_60px_rgba(15,23,42,0.08)] dark:border-slate-800 dark:bg-slate-900/70">
+      <div className="inline-flex size-11 items-center justify-center rounded-2xl bg-[var(--accent)]/10 text-[var(--accent)] ring-1 ring-[var(--accent)]/20 transition group-hover:bg-[var(--accent)]/15">
         {icon}
       </div>
       <h3 className="mt-4 text-base font-semibold text-slate-900 dark:text-white">{title}</h3>

@@ -4,29 +4,27 @@
 
 :root {
   color-scheme: light;
-  --ibm-blue: #0f62fe;
-  --ibm-cyan: #1192e8;
-  --surface: #ffffff; /* Card Background */
+  --surface: #f8faf2;
   --surface-elevated: #ffffff;
-  --surface-secondary: #F7C64A; /* Main Background */
-  --surface-section: #FFF6D8; /* Secondary Sections */
-  --text-primary: #111827; /* Heading Text */
-  --text-secondary: #374151; /* Body Text */
-  --text-muted: #6B7280; /* Muted Text */
-  --border: #E5E7EB; /* Borders */
-  --hover: #F3D36C; /* Hover Background */
+  --surface-secondary: #eff5df;
+  --surface-section: #f2f6ea;
+  --text-primary: #1f4752;
+  --text-secondary: #3f6069;
+  --text-muted: #6b8b8f;
+  --border: #c8d7d4;
+  --hover: #d9e6de;
   --input-bg: #ffffff;
 
   /* Buttons */
-  --btn-primary-bg: #111827;
+  --btn-primary-bg: #5f9ea0;
   --btn-primary-text: #ffffff;
-  --btn-primary-hover: #1f2937;
-  --btn-secondary-bg: #ffffff;
-  --btn-secondary-text: #111827;
-  --btn-secondary-border: #e5e7eb;
-  --btn-secondary-hover: #F3D36C;
-  --accent: #F7C64A;
-  --footer-bg: #E8B83D;
+  --btn-primary-hover: #4d8286;
+  --btn-secondary-bg: #eff5df;
+  --btn-secondary-text: #1f4752;
+  --btn-secondary-border: #c8d7d4;
+  --btn-secondary-hover: #d9e6de;
+  --accent: #5f9ea0;
+  --footer-bg: #d8e6e0;
 }
 
 html {
@@ -52,27 +50,27 @@ body {
 
 html.dark {
   color-scheme: dark;
-  --surface: #2C3444; /* Cards */
-  --surface-elevated: #2C3444;
-  --surface-secondary: #1F2937; /* Main Background & Navbar */
-  --surface-section: #2C3444; /* Secondary Sections / Cards */
-  --text-primary: #F9FAFB; /* Primary Text */
-  --text-secondary: #D1D5DB; /* Secondary Text */
-  --text-muted: #9CA3AF; /* Muted Text */
-  --border: #4B5563; /* Borders */
-  --hover: #455066; /* Hover */
-  --input-bg: #374151;
+  --surface: #112b34;
+  --surface-elevated: #152f3b;
+  --surface-secondary: #0f2731;
+  --surface-section: #163a46;
+  --text-primary: #eef7f1;
+  --text-secondary: #aec7c4;
+  --text-muted: #86a4a1;
+  --border: #1f4e58;
+  --hover: #1f5c67;
+  --input-bg: #0f2940;
 
   /* Buttons */
-  --btn-primary-bg: #F7C64A; /* Accent brand yellow */
-  --btn-primary-text: #111827;
-  --btn-primary-hover: #F3D36C;
-  --btn-secondary-bg: #374151; /* Inputs / secondary buttons */
-  --btn-secondary-text: #F9FAFB;
-  --btn-secondary-border: #4B5563;
-  --btn-secondary-hover: #455066;
-  --accent: #F7C64A;
-  --footer-bg: #18212F;
+  --btn-primary-bg: #5f9ea0;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #4d8286;
+  --btn-secondary-bg: #143b47;
+  --btn-secondary-text: #eef7f1;
+  --btn-secondary-border: #1f4e58;
+  --btn-secondary-hover: #1f5c67;
+  --accent: #5f9ea0;
+  --footer-bg: #122f38;
 }
 
 /* Shadows and border inset rules */

@@ -14,8 +14,8 @@ export function LoginPage() {
   return (
     <div className="min-h-dvh bg-[var(--surface-secondary)] text-[var(--text-primary)] transition-colors">
       <div aria-hidden="true" className="pointer-events-none fixed inset-0 overflow-hidden">
-        <div className="absolute -top-40 left-1/2 h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-gradient-to-r from-[#5BA8A0]/20 via-[#F4B06A]/10 to-[#5BA8A0]/10 blur-3xl" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(15,23,42,0.05),transparent_60%)] dark:bg-[radial-gradient(circle_at_top,rgba(148,163,184,0.08),transparent_60%)]" />
+        <div className="absolute -top-40 left-1/2 h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-gradient-to-r from-[#5f9ea0]/20 via-[#acd9d6]/20 to-[#5f9ea0]/10 blur-3xl" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(31,71,82,0.05),transparent_60%)] dark:bg-[radial-gradient(circle_at_top,rgba(138,217,214,0.08),transparent_60%)]" />
       </div>
 
       <header className="relative mx-auto max-w-6xl px-6 py-6">

@@ -12,7 +12,7 @@ export function HeroSection() {
       <div className="mx-auto max-w-7xl">
         <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-12">
           <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-            <motion.div custom={0} variants={fadeUp} className="inline-flex items-center gap-2 rounded-full border border-[#5BA8A0]/20 bg-[#5BA8A0]/10 px-4 py-1.5 text-xs font-medium text-[#4f918b] dark:text-[#8bd7ce]">
+            <motion.div custom={0} variants={fadeUp} className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/20 bg-[var(--accent)]/10 px-4 py-1.5 text-xs font-medium text-[var(--text-secondary)] dark:text-[#8bd7ce]">
               <Sparkles className="size-3.5" />
               AI-powered grant discovery for India
             </motion.div>
@@ -42,7 +42,7 @@ export function HeroSection() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 32, scale: 0.98 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }} className="relative">
-            <div className="absolute -inset-4 rounded-[32px] bg-gradient-to-r from-[#5BA8A0]/20 via-[#F4B06A]/10 to-[#5BA8A0]/20 blur-2xl" />
+            <div className="absolute -inset-4 rounded-[32px] bg-gradient-to-r from-[var(--accent)]/20 via-[#acd9d6]/10 to-[var(--accent)]/20 blur-2xl" />
             <div className="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-white/80 shadow-[0_24px_80px_rgba(15,23,42,0.08)] backdrop-blur-sm dark:border-slate-700 dark:bg-slate-900/80">
               <div className="flex items-center gap-2 border-b border-slate-200/80 px-4 py-3 dark:border-slate-700">
                 <span className="size-2.5 rounded-full bg-red-400/80" />
@@ -63,17 +63,17 @@ export function HeroSection() {
 
                 <div className="rounded-[20px] bg-slate-50 p-4 ring-1 ring-slate-200 dark:bg-slate-950/60 dark:ring-slate-700">
                   <div className="flex items-center gap-2 text-xs font-medium text-slate-500 dark:text-slate-400">
-                    <BadgeCheck className="size-3.5 text-[#5BA8A0]" />
+                    <BadgeCheck className="size-3.5 text-[var(--accent)]" />
                     Eligibility check
                   </div>
                   <div className="mt-2 text-sm text-slate-700 dark:text-slate-300">Eligible — missing Udyam registration & audited FY statements.</div>
                 </div>
 
-                <div className="rounded-[20px] bg-gradient-to-r from-[#5BA8A0]/12 to-[#F4B06A]/10 p-4 ring-1 ring-[#5BA8A0]/20">
+                <div className="rounded-[20px] bg-gradient-to-r from-[var(--accent)]/12 to-[#acd9d6]/10 p-4 ring-1 ring-[var(--accent)]/20">
                   <div className="text-xs font-semibold text-slate-900 dark:text-white">Proposal draft ready</div>
                   <div className="mt-1 text-xs text-slate-500 dark:text-slate-400">Executive summary · Technical approach · Budget · Milestones</div>
                   <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/70 dark:bg-slate-800/70">
-                    <motion.div className="h-full rounded-full bg-gradient-to-r from-[#5BA8A0] to-[#F4B06A]" initial={{ width: 0 }} animate={{ width: "78%" }} transition={{ duration: 1.2, delay: 0.8, ease: "easeOut" }} />
+                    <motion.div className="h-full rounded-full bg-gradient-to-r from-[var(--accent)] to-[#acd9d6]" initial={{ width: 0 }} animate={{ width: "78%" }} transition={{ duration: 1.2, delay: 0.8, ease: "easeOut" }} />
                   </div>
                 </div>
               </div>

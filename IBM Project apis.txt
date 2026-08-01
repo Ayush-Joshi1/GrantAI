@@ -1,0 +1,9 @@
+IBM WATSONX
+
+PROJECT_ID= 7e11baba-2063-43a9-9ccc-e47a514dcb81
+
+IBM_API_KEY=tfo0J_fIB7FkFFckiiU20R-Exspr9dxjayAlL1iw8jCk
+
+IBM_URL=https:https://au-syd.ml.cloud.ibm.com
+
+MODEL_ID=ibm/granite-3-3-8b-instruct
